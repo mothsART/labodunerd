@@ -9,7 +9,7 @@ Summary:
 
 ## Fonctionnalités
 
-http://sametmax.com/10-astuces-pour-sublime-text-2/
+[http://sametmax.com/10-astuces-pour-sublime-text-2](http://sametmax.com/10-astuces-pour-sublime-text-2)
 
 Edit/StringEncode : permet d'encoder des chaines de caractères
 
