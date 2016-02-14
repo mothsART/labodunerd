@@ -1,0 +1,9 @@
+wo linkmanager_website
+pelican -r content
+
+
+
+cd output && python -m http.server
+
+=> fab serve
+
