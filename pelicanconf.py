@@ -23,7 +23,7 @@ DISPLAY_PAGES_ON_MENU = False
 TEMPLATE_PAGES = {
     '../labo/frontend/ripple_onclick/animate.css': 'labo/frontend/ripple_onclick/animate.css',
     '../labo/frontend/ripple_onclick/script.js': 'labo/frontend/ripple_onclick/script.js',
-    '../labo/frontend/ripple_onclick/ripple.html': 'labo/frontend/ripple_onclick/ripple.html',
+    '../labo/frontend/ripple_onclick/index.html': 'labo/frontend/ripple_onclick/index.html',
 
     '../labo/frontend/vanilla/benchmark.js': 'labo/frontend/vanilla/benchmark.js',
     '../labo/frontend/vanilla/script.js': 'labo/frontend/vanilla/script.js',
