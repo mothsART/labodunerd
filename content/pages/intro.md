@@ -9,14 +9,13 @@ save_as: index.html
 # Intro
 
 Ce dev-blog-draft est celui d'un passionné du numérique.
-Toujours en mouvement, jamais satisfait, il est impossible de promettre quoi que ce soit.
-C'est un réel banc d'essai : un labo ou je m'éclate et écrit au fil de l'eau mes essais...
-Tout est éphémère mais certains écrits restent(ront).
+Souvent dans la remise en question, rarement satisfait, en recherche de singularité.
+Ce site est avant-tout un réel banc d'essai : un labo ou je m'éclate et écrit au fil de l'eau mes essais... il n'a donc pas de délais de livraison.
 
 # L'auteur
 
-Un Nerd dans sa définition pure : passionné de tout et rien à la fois avec un profond attachement pour les maths, la physique, la science (et la science fiction), mais surtout pour ces domaines appliqués.
-Très clairement "perché", il entretien son anti-conformisme et sa marginalité avec 99% des homo sapiens.
+Un Nerd, sans doute dans sa définition pure : passionné de tout et de rien à la fois avec un profond attachement pour les maths, la physique, la science (et la science fiction), mais surtout pour ces domaines appliqués.
+Sans doute un peu "perché", il entretien son anti-conformisme et sa marginalité avec 99% des homo sapiens.
 
 # Les thèmes abordés
 
