@@ -20,9 +20,30 @@ AUTHOR_FEED_RSS = None
 
 DISPLAY_PAGES_ON_MENU = False
 
-# TEMPLATE_PAGES = {
-#     '../labo/base.html': 'labo/base.html'
-# }
+TEMPLATE_PAGES = {
+    '../labo/frontend/ripple_onclick/animate.css': 'labo/frontend/ripple_onclick/animate.css',
+    '../labo/frontend/ripple_onclick/script.js': 'labo/frontend/ripple_onclick/script.js',
+    '../labo/frontend/ripple_onclick/ripple.html': 'labo/frontend/ripple_onclick/ripple.html',
+
+    '../labo/frontend/vanilla/benchmark.js': 'labo/frontend/vanilla/benchmark.js',
+    '../labo/frontend/vanilla/script.js': 'labo/frontend/vanilla/script.js',
+    '../labo/frontend/vanilla/index.html': 'labo/frontend/vanilla/index.html',
+
+    '../labo/frontend/dragndrop/script.js': 'labo/frontend/dragndrop/script.js',
+    '../labo/frontend/dragndrop/index.html': 'labo/frontend/dragndrop/index.html',
+
+    '../labo/frontend/menu_dragndrop/script.js': 'labo/frontend/menu_dragndrop/script.js',
+    '../labo/frontend/menu_dragndrop/index.html': 'labo/frontend/menu_dragndrop/index.html',
+
+    '../labo/frontend/modernizr/is.js': 'labo/frontend/modernizr/is.js',
+    '../labo/frontend/modernizr/modernizr-custom.js': 'labo/frontend/modernizr/modernizr-custom.js',
+    '../labo/frontend/modernizr/duckTypingBrowserDetection.js': 'labo/frontend/modernizr/duckTypingBrowserDetection.js',
+    '../labo/frontend/modernizr/pluginDetect.js': 'labo/frontend/modernizr/pluginDetect.js',
+    '../labo/frontend/modernizr/script.js': 'labo/frontend/modernizr/script.js',
+    '../labo/frontend/modernizr/index.html': 'labo/frontend/modernizr/index.html',
+
+    '../labo/base.html': 'labo/base.html'
+}
 
 # static paths will be copied without parsing their contents
 STATIC_PATHS = [
