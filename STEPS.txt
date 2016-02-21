@@ -7,3 +7,15 @@ cd output && python -m http.server
 
 => fab serve
 
+github
+======
+
+https://pages.github.com/
+
+$ cd output
+$ git init
+$ git remote add origin https://github.com/username/username.github.io.git
+$ git add --all
+$ git commit -m "commit message"
+$ git push origin master
+
