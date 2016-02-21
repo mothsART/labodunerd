@@ -22,4 +22,12 @@ Afin de perfectionner mes connaissances et mes acquis dans le dev frontend, j'en
  mais aussi :
 
 - un réel workflow côté client
-- de la rigueur : BEM, vanillaJS
+- de la rigueur : [BEM](http://www.alsacreations.com/article/lire/1641-bonnes-pratiques-en-css-bem-et-oocss.html#bem), [vanillaJS](http://vanilla-js.com)
+
+##Le labo
+
+Voici quelques une de mes recherches actuelles ou passés :
+
+- [Tests de navigateur (avec et sans user-agent) + tests de fonctionnalités](/labo/frontend/modernizr)
+- [Animation au clic](/labo/frontend/ripple_onclick)
+- [Bench de comparaison de Jquery/VanillaJS/Xpath (en natif)](/labo/frontend/vanilla)

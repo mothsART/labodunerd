@@ -59,5 +59,5 @@ Voici mes contributions à ce générateur de site statique qui ne demande qu'à
 
 * création d'un plugin permettant l'i18n sans l'obligatation d'avoir au minimum 2 langues. (pas trouvé via le plugin "i18n_subsite")
 
-* création d'un thème perso, comprenant l'internationnalisation.
+* création d'un thème perso, comprenant l'internationnalisation. (WIP)
 
