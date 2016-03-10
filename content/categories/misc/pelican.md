@@ -5,9 +5,8 @@ Date: 2015-12-11 00:00
 Modified: 2015-12-11 00:00
 Slug: pelican
 Authors: Jérémie Ferry
+Status: published
 Summary:
-
-# Pelican
 
 ## Intro
 
@@ -21,9 +20,9 @@ Néanmoins, j'ai préféré continuer avec Pelican... je sais que le diable ce c
 * Markdown : J'ai finalement abandonné RestructuredText pour Markdown :
     plus de doc, plus flexible, (si je veux un jour changer de moteur statique) des éditeurs WYSIWYG plus aboutis.
 
-* Gestionnaire de commentaires : Disqus
+* Gestionnaire de commentaires : <del>Disqus</del> **[Isso](http://posativ.org/isso/)**
 
-* Moteur de template pratique : Jinja est un bon cru ;)
+* Moteur de template pratique : **[Jinja](http://jinja.pocoo.org/)** est un bon cru ;)
 
 * Possibilité de créer des pages avec des templates personnalisés
 
@@ -49,15 +48,23 @@ Voici mes contributions à ce générateur de site statique qui ne demande qu'à
 
     * coloration synthaxique
 
-    Il lui manque cependant des choses :
+        Il lui manque cependant des choses :
 
-    * la création d'un id par ligne -> url avec une ancre
+        - la création d'un id par ligne -> url avec une ancre
 
-    * doc : [http://prismjs.com/plugins/wpd](http://prismjs.com/plugins/wpd)
+        - doc : [http://prismjs.com/plugins/wpd](http://prismjs.com/plugins/wpd)
 
-    * Autolinker : [http://prismjs.com/plugins/autolinker](http://prismjs.com/plugins/autolinker)
+        - Autolinker : [http://prismjs.com/plugins/autolinker](http://prismjs.com/plugins/autolinker)
 
 * création d'un plugin permettant l'i18n sans l'obligatation d'avoir au minimum 2 langues. (pas trouvé via le plugin "i18n_subsite")
 
-* création d'un thème perso, comprenant l'internationnalisation. (WIP)
+* création d'un thème perso :
+
+    - [] I18n sur l'ensemble du site et des plugins
+    - [x] Possibilité de changer de thème via un **dropdown bootstrap** + préservation du thème choisi dans un cookie. (qui a dit que les cookies avait besoin d'un site dynamique ?)
+    - [] **en cours** : page 404
+    * [] **en cours** : Utilisation de **[Isso](http://posativ.org/isso)** à la place de **Disqus** : permet des commentaires anonymes.
+    * [] **en cours** : Des URLs avec une ancre peuvent avoir des soucis avec un menu fixe :
+      l'option ** SCROLL_TOP_MARGIN** permet de rajouter des pixels suplémentaires pour éviter cette contrainte.
+    * [] **en cours** : Utilisation d'une page de référence pour mon template avec le maximum de règles : [pelicans-template.html](/pelicans-template.html)
 

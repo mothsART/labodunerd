@@ -5,17 +5,18 @@ Date: 2016-02-14 00:00
 Modified: 2016-02-14 00:00
 Slug: pelicans-template
 Authors: Jérémie Ferry
+Status: published
 Summary:
 
-# Title1
+# Title 1
 
-## Title2
+## Title 2
 
-### Title3
+### Title 3
 
-#### Title4
+#### Title 4
 
-##### Title5
+##### Title 5
 
 ###### Title 6
 
@@ -35,12 +36,12 @@ Keyboard shortcuts : <kbd>Alt</kbd><kbd>Q</kbd>
     * 3.1
     * 3.2
 
-# Code Bash
+## Code Bash
 
     #!bash
     cat file | wc
 
-# Code Python
+## Code Python
 
     #!python
     def fib(n):

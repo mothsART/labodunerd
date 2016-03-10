@@ -5,11 +5,8 @@ Date: 2015-12-11 00:00
 Modified: 2015-12-11 00:00
 Slug: aide-memoire-zsh
 Authors: Jérémie Ferry
+Status: published
 Summary:
-
-# Aide-Memoire Zsh
-
-## Intro
 
 Et oui, pauvre mortel, je ne retiens pas toujours les fonctions utiles de ZSH et son pendant naturel "Oh my Zsh"
 

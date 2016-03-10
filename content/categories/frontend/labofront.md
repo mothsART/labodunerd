@@ -1,13 +1,12 @@
 Title: Labo du dev frontend
 Category: Frontend
-Tags: frontend js css html
+Tags: frontend, js, css, html
 Date: 2015-12-11 00:00
 Modified: 2015-12-11 00:00
 Slug: labo-du-dev-frontend
 Authors: Jérémie Ferry
+Status: published
 Summary:
-
-# Le labo du dev frontend
 
 ## Intro
 

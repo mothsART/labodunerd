@@ -5,9 +5,8 @@ Date: 2016-02-14 00:00
 Modified: 2016-02-14 00:00
 Slug: aide-memoire-git
 Authors: Jérémie Ferry
+Status: published
 Summary:
-
-# Aide-Memoire GIT
 
 ## Intro
 

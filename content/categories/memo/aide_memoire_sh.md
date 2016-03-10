@@ -1,13 +1,12 @@
 Title: Aide mémoire sh
 Category: Aide-memoire
-Tags: sh linux
+Tags: sh, linux
 Date: 2015-12-11 00:00
 Modified: 2015-12-11 00:00
 Slug: aide-memoire-sh
 Authors: Jérémie Ferry
+Status: published
 Summary:
-
-# Aide-Memoire sh
 
 ## Intro
 

@@ -1,10 +1,11 @@
 Title: Bench de bases de données
-Category: Misc
-Tags: sql db bench benchmark
+Category: 
+Tags: sql, db, bench, benchmark
 Date: 2015-12-11 00:00
 Modified: 2015-12-11 00:00
 Slug: db-bench
 Authors: Jérémie Ferry
+Status: published
 Summary:
 
 # Un Bench de Base de données
@@ -51,7 +52,7 @@ il existe en réalité 4 grandes familles de NoSQL :
 * base orientée **document** : mongoDb, couchDb, Riack
 * base orientée **clé/valeur** : Redis
 * base orientée **graph** : Neo4JS, OrientDb
-* orienté **object** (ZoDb)
+* orienté **object** :ZoDb
 
 ## Raison du Bench => le caching
 

@@ -5,6 +5,7 @@ Date: 2016-01-15 00:00
 Modified: 2016-01-15 00:00
 Slug: aide-memoire-sublime-text
 Authors: Jérémie Ferry
+Status: published
 Summary:
 
 ## Fonctionnalités
