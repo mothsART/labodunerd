@@ -47,15 +47,17 @@ TEMPLATE_PAGES = {
 
 # static paths will be copied without parsing their contents
 STATIC_PATHS = [
-    'content/images',
-    'static/robots.txt'
+    'static'
 ]
 
 EXTRA_PATH_METADATA = {
     'static/robots.txt': {'path': 'robots.txt'},
 }
 
-PLUGIN_PATHS = ['pelican-plugins', 'personnal-plugins']
+PLUGIN_PATHS = [
+    'pelican-plugins',
+    'personnal-plugins'
+]
 
 PLUGINS = [
     'assets', 'sitemap', 'gravatar',  #'i18n_subsites',
@@ -78,6 +80,22 @@ SITEMAP = {
 }
 
 THEME = "themes/lab"
+DIRECT_TEMPLATES = ((
+    'index', 'tags', 'categories',
+    'archives', 'search', '404'
+))
+
+CSS_THEMES = [
+    {
+        "name": "Thème classique (orange)",
+        "path": "static/css/themes/classic.css",
+        "default": True
+    },
+    {
+        "name": "Thème océan (bleu)",
+        "path": "static/css/themes/ocean.css"
+    }
+]
 
 # Blogroll
 LINKS = (
@@ -93,6 +111,10 @@ SOCIAL = (
 )
 
 DEFAULT_PAGINATION = 10
+
+DEFAULT_METADATA = {
+    'status': 'draft'
+}
 
 # TAGS
 TAG_CLOUD_STEPS = 1
@@ -126,3 +148,6 @@ DISQUS_CATEGORY_ID = "3506724"  # Dev
 
 DISQUS_SECRET_KEY = 'Iq1skapIEykejHa4FwVcbomNJOKkm4CoUhTHXwiKrnNrWFDMRYvo6VUcbS5c5ode'
 DISQUS_PUBLIC_KEY = 'YbVM9ctM6uTgnAAWrezSFa1rwCiRhhNjjaPwBI9dmgcHJVYCmbw3PpwNgHcLdGzN'
+
+# CACHE_CONTENT = True
+# LOAD_CONTENT_CACHE = True
