@@ -5,6 +5,7 @@ output/
 *.pid
 *.pyc
 
-themes/lab
+themes/
 
 pelican-plugins/
+
