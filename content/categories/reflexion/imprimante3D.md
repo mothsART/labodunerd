@@ -24,8 +24,8 @@ C'est devenu un produit de luxe : il serait sans doute plus rentable de passer p
 
 ## Prérequis
 
-- Il y a plusieurs technologies d'impression tridimensionnel mais l'**FDM (Fused Deposition Modeling)** semble la plus viable pour de l'usage Domestique : on utilise des filaments synthétique qu'on fusionne pour ajouter de la matière couche par couche.
-- La technique précédente pour divers raisons (coût, taille etc.) réduit l'usage domestique aux matières plastiques de type **ABS** ou **PLA**.
+- Il y a plusieurs technologies d'impression tridimensionnel mais l'**FDM (Fused Deposition Modeling)** semble la plus viable pour de l'usage Domestique : on utilise des filaments synthétiques qu'on fusionne pour ajouter de la matière couche par couche.
+- La technique précédente, réduit l'usage domestique pour divers raisons (coût, taille etc.) aux matières plastiques de type **ABS** ou **PLA**.
 
 ## L'impression 3D c'est simple
 
