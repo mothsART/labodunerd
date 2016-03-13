@@ -69,9 +69,24 @@ et le résultat de son chargement :
 
 ![tmuxp load](static/images/tmuxp_labodunerd.png)
 
-
-Si vous voulez concatener plusieurs espaces de travail en un, c'est possible :
+Si vous voulez concatener plusieurs espaces de travail en un, c'est possible.
 
 ### Remarques
 
 Il manque sans doute le support de **Toml** : le meilleur format de conf de tout les temps!
+
+## Etendre vos super-pouvoirs avec Tmux
+
+### une ligne de commande permettant de supprimer l'ensemble des sessions Tmux
+
+Rajouter ceci dans votre zshrc ou votre bashrc :
+
+    #!bash
+    function tmux_kill_all_sessions() {
+        tmux ls;
+        local tmux_session=`tmux ls | grep --color=never : | cut -d. -f1 | awk '{print substr($1, 0, length($1))}' | awk -F: '{print $2}'`;
+        # "awk -F: '{print $2}'" => permet de supprimer le numéro de ligne
+        # préfixé par grep (dût à GREP_OPTIONS='-n')
+        tmux kill-session -t "$tmux_session";
+    }
+    alias tmuxkillallsessions='tmux_kill_all_sessions'
