@@ -42,12 +42,12 @@ Keyboard shortcuts : <kbd>Alt</kbd><kbd>Q</kbd>
     * 3.3
 * 4
 
-## Code Bash
+## Bash code
 
     #!bash
     cat file | wc
 
-## Code Python
+## Python code
 
     #!python
     def fib(n):

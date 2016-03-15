@@ -1,4 +1,4 @@
-Title: Réflexion autours des Imprimantes 3D à usage domestique
+Title: Réflexion autour des Imprimantes 3D à usage domestique
 Category: réflexion
 Tags: imprimante, 3D
 Date: 2016-02-28 10:35

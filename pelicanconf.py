@@ -88,12 +88,12 @@ DIRECT_TEMPLATES = ((
 CSS_THEMES = [
     {
         "name": "Thème classique (orange)",
-        "path": "static/css/themes/classic.css",
+        "path": "theme/css/orange.css",
         "default": True
     },
     {
         "name": "Thème océan (bleu)",
-        "path": "static/css/themes/ocean.css"
+        "path": "theme/css/ocean.css"
     }
 ]
 

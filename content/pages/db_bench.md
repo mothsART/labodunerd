@@ -8,8 +8,6 @@ Authors: Jérémie Ferry
 Status: published
 Summary:
 
-# Un Bench de Base de données
-
 ## Intro
 
 Le stockage de données est omniprésent.
