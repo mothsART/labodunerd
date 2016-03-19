@@ -1,8 +1,8 @@
 Title: Pourquoi je boude Node.Js
 Category: reflexion
 Tags: javascript, web
-Date: 2015-12-11 00:00
-Modified: 2015-12-11 00:00
+Date: 2016-03-19 16:00
+Modified: 2016-03-19 16:00
 Slug: pourquoi-je-boude-nodejs
 Authors: Jérémie Ferry
 Status: published
@@ -54,4 +54,4 @@ Les besoins du web ne cesse de s'accroitre. Les usages se diversifies.
 Javascript est incontournable et vit son heure de gloire.
 Mais tout à une fin et il vaut mieux ammorcer la chute plutôt que de la subir.
 
-Il sera sans doute possible dans moins de 10 ans de faire du web en se passant totalement de Javascript et donc d'utiliser des langages plus modernes, moins permissifs et plus réactifs tel que **Rust**.
+Il sera sans doute possible dans moins de 10 ans de faire du web en se passant totalement de Javascript (Plus de CoffeeScript, TypeScript et autre BullshitScript ou VaporWareScript) et donc d'utiliser des langages plus modernes, moins permissifs et plus réactifs tel que **Rust**.
