@@ -28,7 +28,7 @@ Ce qui régis les lois de l'informatique, se sont des lois physiques et mathéma
 
 Pour comprendre un fonctionnement complexe, il est utile bien souvent de le fractionner en plusieurs problématique simples : https://fr.wikipedia.org/wiki/Diviser_pour_r%C3%A9gner_(informatique)
 
-# Entrée / sortie
+## Entrée / sortie
 
 Un programme informatique est un ensemble d'opérations destinées à être exécutées par un ordinateur.
 Il se résume donc à des entrées et des sorties possibles. (cf: univers des possibles)
