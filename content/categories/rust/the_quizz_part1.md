@@ -66,7 +66,7 @@ Enfin, le logiciel répond par **✔** ou **✘**.
 
 - Pour lancer le soft, on fait : **cargo run**
 - Pour en sortir, on appuie sur la touche **q**
-- Pour sélectionner une réponse, on peut s'aider des flêche gauche et droite
+- Pour sélectionner une réponse, on peut s'aider des flêche gauche <kbd>←</kbd> et droite <kbd>→</kbd>
 - Pour valider une sélection, on appuie sur entrée
  Sinon, on peut utiliser les raccourcis clavier <kbd>o</kbd> pour **Oui** (Attention, en anglais, on utilise <kbd>y</kbd>) et <kbd>n</kbd> pour **Non**.
 
