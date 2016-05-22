@@ -16,11 +16,10 @@ Afin de perfectionner mes connaissances et mes acquis dans le dev frontend, j'en
  - backbone/_underscore
  - casper.js
  - riotjs (et non, pas d'angular, de react etc. minimize is better)
- - webpack
+ - <strike>webpack</strike> (manque de souplesse) **gulp**
 
  mais aussi :
 
-- un réel workflow côté client
 - de la rigueur : [BEM](http://www.alsacreations.com/article/lire/1641-bonnes-pratiques-en-css-bem-et-oocss.html#bem), [vanillaJS](http://vanilla-js.com)
 
 ##Le labo

@@ -1,4 +1,4 @@
-Title: The QuiZz : Parti 1
+Title: The QuiZz : Partie 1
 Category: rust
 Tags: rust, gettext, cli, postgresql
 Date: 2016-10-05 19:12

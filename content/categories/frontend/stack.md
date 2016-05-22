@@ -7,14 +7,97 @@ Authors: Jérémie Ferry
 Status: published
 Summary:
 
-## Intro
+## Intro (Gros WIP Unstable!!!)
 
 Ma stack côté frontend (en constante évolution).
 
-## Css
+Comme tout **bon** développeur, je suis fainéant :
+faire et refaire des tâches ingrates (cqfd: automatisable) me répugne.
+De plus, j'aime avoir une certaine assurance sur le code produit. (surtout sur le javascript!)
 
-- CssLint
+Pour la partie frontend, je me suis créé un socle de démarrage avec une compilation de tout ce qui est hype (presque tout) côté JS.
+
+mon dépôt : [https://github.com/mothsART/frontend_workflow](https://github.com/mothsART/frontend_workflow)
+
+Mon usage est de le cloner dans un projet mère et de supprimer le .git dès qu'il est suffisament mature.
+
+## Assurance qualité (QA)
+
+- Utilisation des linter : **csslint** et **eslint**
+
+eslint est utilisé avec l'option **fix** qui permet de corriger automatiquement les soucis rencontrés.
+
+Csslint n'a malheureusement pas cette fonctionnalité.
+
+- **csscomb** : organise les instructions css
+- **cssbeautify** : arange le css pour qu'il soit lisible : espacements et les indentations parfaitement respectées.
+
+## Examples
+
+Pour donner un réel périmètre fonctionnel de cette stack, je créé au fur à mesure des fichiers d'exemples css, javascript et tags riot.
+Le but est bien évidement de démmarrer un nouveau projet avec de la matière.
+
+Néanmoins, il est possible de partir, via une commande avec un projet vierge :
+
+    #!sh
+    gulp clean
+
+## Mise en prod
+
+Une mise en prod de fichiers statiques a ses exigences.
+Il faut:
+
+- concaténer les fichiers (une requête HTTP par ressource)
+- les minifier
+- vu qu'on utilise de la transpilation : générer des css.map/js.map
+
+L'usage des extrémistes de Nodejs va plus loin en incluant le css dans le javascript: Je ne suis pas fan donc vous ne trouverez rien de ce genre.
+
+## Frameworks et libs employés
+
+- [NPM](./npm.html)
+- [NodeJS](./nodejs.html)
+- [Gulp](./gulp.html)
+- [BabelJS](./babeljs.html)
+- [RiotJS](./riotjs.html)
+- [PostCSS + CssNext](./postcss.html)
+
+## Sublime text
+
 - Css lisible : extension de Sublime text
 
-## Javascript
+## Récapitulatif des commandes principales
 
+1. Cloner le dépôt :
+
+Copier le projet
+
+    #!sh
+    git clone https://github.com/mothsART/frontend_workflow.git
+    cd frontend_workflow
+
+2. Installer les dépendances
+
+on parcours le fichier package.json et on installe l'ensemble des dépendances
+
+    #!sh
+    npm install
+
+3. Commencer à travailler (ça fait un watch)
+
+On se met en mode debug :
+
+    #!sh
+    npm start
+
+4. Avant de commiter, on déclenche un process d'**assurance qualité**
+
+Si l'on désire supprimer les fichiers d'exemples
+
+    #!sh
+    gulp clean
+
+Opération inverse (reafficher les exemples)
+
+    #!sh
+    git checkout -- app/
