@@ -71,3 +71,19 @@ On récupère toutes les données du **repository remote**
 ## gc
 
 ## fsck
+
+## Sous modules
+
+J'oubli à chaque fois l'ordre pour mettre à jour un sous-module.
+Mon exemple pour mon plugin **Ace Editor** :
+
+    #!bash
+    git clone --recursive https://github.com/mothsART/pelican-plugins.git
+    cd ace_editor
+    git checkout master
+    git pull
+    cd ..
+    git add -A
+    git c -m "..."
+    git push
+
