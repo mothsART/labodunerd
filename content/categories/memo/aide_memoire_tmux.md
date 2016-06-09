@@ -13,6 +13,12 @@ Ca fait maintenant 2 bonnes années que j'utilise **Tmux** à la place du vielli
 
 Tmux est un **multiplexeur** de terminal **configurable** qui gère aussi bien les raccourcis clavier que les interactions de la souris.
 
+## Raccourci dans Tmux
+
+- killer la fenêtre courante et tous les panes qu'elle contient
+<kbd>Ctrl</kbd> + <kbd>a</kbd> puis <kbd>&</kbd>
+- 
+
 ## Tmuxp
 
 Cette lib python permet de configurer facilement des espaces de travail pour **Tmux**.
