@@ -23,7 +23,7 @@ C'est un language incroyable pour du script et du prototypage.
 **C#** est aussi un bon cru, même si, il faut l'avouer, c'est souvent l'IDE **Visual Studio** qui lui donne autant de pouvoir.
 
 Une raison, non dissimulé, vient du fait que j'exprime le besoin de sortir de mon périmètre de confort : d'apprendre ou ré-apprendre.
-Pour celà, j'ai testé pas mal de langages : Ocaml, Haskell, Go langage.
+Pour celà, j'ai testé pas mal de langages : **Ocaml**, **Haskell**, **Go langage**.
 Ni l'un ni l'autre n'a trouvé grâce à mes yeux (chacun pour des raisons différentes).
 
 ## Faire du bas niveau
@@ -31,7 +31,7 @@ Ni l'un ni l'autre n'a trouvé grâce à mes yeux (chacun pour des raisons diff�
 Il y a 2 types de dev: ceux qui font du bas niveau et les autres.
 Quant on fait du bas niveau, on s'oblige a comprendre comment fonctionne réellement un ordinateur.
 
-La première catégorie est forcément mieux armé pour faire face à des problématiques complexes : de performance, latence, empreinte mémoire etc.
+La première catégorie est forcément mieux armé pour faire face à des problématiques complexes : de performance, latence, empreinte mémoire, sécurité etc.
 
 Bref, les problématiques rencontrés par tous les développeurs travaillant sur des projets sérieux.
 
@@ -51,11 +51,6 @@ Pour du desktop, ça peut paraitre anodin (quoi que) mais pour du serveur ou de 
 Le C (ou le C++) c'est idéal pour écrire du code bas niveau : pourquoi le remplacer par du Rust ?
 Parce que c'est pas safe du tout, que ça n'utilise qu'un paradigme et que c'est pas adapté à du dev concurrent.
 
-## Oui, mais C fait du bas niveau
-
-Le **C** (ou le **C++**) c'est idéal pour écrire du code bas niveau : pourquoi le remplacer par du **Rust** ?
-Parce que c'est pas safe du tout, que ça n'utilise qu'un paradigme et que c'est pas adapté à du dev concurrent.
-
 ## Maitriser de bout en bout
 
 La lubie du développeur est de maitriser son environnement au maximum.
@@ -66,7 +61,7 @@ Ensuite, des problématiques plus pointues viennent se rajouter pour le dévelop
 En l'occurence, toute la stack employé pour aboutir à un résultat : soit les éditeurs et IDE choisit, les logiciels de versions, les hébergements etc.
 
 **Rust** s'inscrit, pour moi,  dans cette quête.
-D'une part, le language n'est pas initié par une grosse firme (Redmond, Google et cie) mais par un organisme à but non lucratif (Mozilla foundation).
+D'une part, le language n'est pas initié par une grosse firme (Redmond, Google et cie) mais par un organisme à but non lucratif (**Mozilla foundation**).
 
 ## Me lancer dans des nouveaux projets
 
@@ -89,7 +84,7 @@ Réduire leur nombre, c'est assuré ses arrières et identifié la variable prob
 
 - détection des **dead code** dès la compilation
 
-- spécification explicite de la durée de vie d'une variable.
+- spécification explicite de la durée de vie d'une variable : ça fait parti des trucs les plus dur à assimilé mais après le mur passé, on produit vraiment du soft de qualité : la mémoire est cloisonné et par conséquent n'est pas gaché.
 
 - Les objets **invalides** (vide) ne sont pas acceptés (ou difficilement contournables) : http://blog.guillaume-gomez.fr/Rust/1/10
 Franchement, vu le nombre de bugs rencontrés en C# de ce genre (et la rigueur nécessaire pour les éviter au maximum), ce choix est pour moi du pain béni.
@@ -99,9 +94,7 @@ Franchement, vu le nombre de bugs rencontrés en C# de ce genre (et la rigueur n
 Rust m'a supris : j'ai mis du temps avant d'avoir des bugs d'exécution vraiment pénalisant.
 En définitive, rust vous invite à réduire la partie **dynamique** de votre programme et par conséquent gère un grand nombre des soucis directement à la compilation.
 
-Peut importe le language utilisé, on ne peut garantir un programme comme stable!
-La notion de bug étant elle-même confuse : c'est un comportement non désiré mais le simple fait qu'un comportemnent non documenté soit 
-Néanmoins, on peut limiter le champ 
+Peut importe le language utilisé, on ne peut garantir un programme comme stable! (cf: la notion de bug)
 
 zero-cost abstractions
 move semantics
