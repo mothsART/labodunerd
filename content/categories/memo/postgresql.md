@@ -31,3 +31,4 @@ http://dgriessinger.developpez.com/postgresql/sequences/
 ## Liens
 
 http://www.gcolpart.com/howto/postgresql.php4
+http://www.system-linux.eu/index.php?post/2016/03/10/installation-et-administration-Postgresql
