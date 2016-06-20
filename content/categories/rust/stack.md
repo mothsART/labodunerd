@@ -39,6 +39,9 @@ Vous n'utilisez pas **Sublime** ou vous désirez en savoir d'avantage : https://
 
 ## Débuggage
 
+    #!sh
+    RUST_BACKTRACE=1
+
 Rust fait beaucoup de vérifications au niveau de la compilation mais ne peut bien évidement pas couvrir la partie dynamique.
 Il subsite donc des erreurs à l'exécution : pour les débusquer, **gdb** est notre ami.
 
