@@ -9,7 +9,7 @@ Summary:
 
 ## The QuiZz : Partie 1
 
-Après mon apprentissage de Rust (doc, des tutos etc.), j'ai décidé de m'atteler à un projet un peu plus abouti.
+Après mon apprentissage de Rust (doc, tutos etc.), j'ai décidé de m'atteler à un projet un peu plus abouti.
 
 Comme toujours, je pars du principe qu'il vaut mieux se lancer sur des projets minimalistes et allez au bout plutôt que de partir dans du gargantuesque et bacler.
 
@@ -34,7 +34,7 @@ Néanmoins, il m'a fallu utiliser **[Babel](http://babel.pocoo.org/en/latest)** 
 
 ### Contenu dans PostGreSQL
 
-En terme de base de donnée SQL, **PostGreSQL** est, pour ma part, ce qui se fait de mieux donc autant commmencer par là.
+En terme de base de donnée SQL, **PostGreSQL** est, pour ma part, ce qui se fait de mieux (principalement en open-source) donc autant commmencer par là.
 
 Même constat : le wrapper est minimaliste mais suffisant.
 
@@ -66,8 +66,8 @@ Enfin, le logiciel répond par **✔** ou **✘**.
 
 - Pour lancer le soft, on fait : **cargo run**
 - Pour en sortir, on appuie sur la touche **q**
-- Pour sélectionner une réponse, on peut s'aider des flêche gauche <kbd>←</kbd> et droite <kbd>→</kbd>
-- Pour valider une sélection, on appuie sur entrée
+- Pour sélectionner une réponse, on peut s'aider des flêches gauche <kbd>←</kbd> et droite <kbd>→</kbd>
+- Pour valider une sélection, on appuie sur <kbd>entrée</kbd>
  Sinon, on peut utiliser les raccourcis clavier <kbd>o</kbd> pour **Oui** (Attention, en anglais, on utilise <kbd>y</kbd>) et <kbd>n</kbd> pour **Non**.
 
 ## Evolution pour l'étape n° 2
@@ -80,10 +80,10 @@ Mon but est de reproduire le comportement du soft cette fois ci sous la forme d'
 
 Dans le désordre, voici les évolutions possibles :
 
-- abstraction pour utiliser d'autres bases de données SQL et NoSQL (**Redis** sans doute en priorité !)
-- une IHM de type Dashboard : édition des questions, statistiques etc.
+- abstraction pour utiliser d'autres bases de données **SQL** et **NoSQL** (**Redis** sans doute en priorité !)
+- une **IHM** de type **Dashboard** : édition des questions, statistiques etc.
 - une appli Android
 - un choix de réponses possibles > 2
 - des réponses ouvertes
 - 
-- pfuu, j'avais dit que c'était pas un projet sérieux
+- pfuu, j'avais dit que c'était pas un projet sérieux.
