@@ -26,9 +26,9 @@ Mon aide-mémoire pour l'indéboulonable **PostGreSQL** : la meilleur base SQL l
 
 ## Sequences
 
-http://dgriessinger.developpez.com/postgresql/sequences/
+[http://dgriessinger.developpez.com/postgresql/sequences](http://dgriessinger.developpez.com/postgresql/sequences)
 
 ## Liens
 
-http://www.gcolpart.com/howto/postgresql.php4
-http://www.system-linux.eu/index.php?post/2016/03/10/installation-et-administration-Postgresql
+[http://www.gcolpart.com/howto/postgresql.php4](http://www.gcolpart.com/howto/postgresql.php4)
+[http://www.system-linux.eu/index.php?post/2016/03/10/installation-et-administration-Postgresql](http://www.system-linux.eu/index.php?post/2016/03/10/installation-et-administration-Postgresql)

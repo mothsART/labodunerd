@@ -23,10 +23,18 @@ Tmux est un **multiplexeur** de terminal **configurable** qui gère aussi bien l
 
 Cette lib python permet de configurer facilement des espaces de travail pour **Tmux**.
 
+### Configurer son .zshrc ou .bashrc
+
+Ajouter ceci pour avoir l'autocompletion
+
+    #!bash
+    eval "$(_TMUXP_COMPLETE=source tmuxp)"
+
+### Tmuxp Load
 Un simple :
 
     #!bash
-    tmuxp load
+    cd ~/.tmuxp && tmuxp load
 
 va me proposer l'autocompletion et me donner ma liste de fichiers yaml d'espace de travail :
 
@@ -77,6 +85,30 @@ et le résultat de son chargement :
 
 Si vous voulez concatener plusieurs espaces de travail en un, c'est possible.
 
+### Tmuxp freeze
+
+Permet de faire un snapshot de votre tmux.
+
+### Tmuxp import
+
+Il existe 2 gros concurrent à tmuxp : 
+
+- teamocil
+- tmuxinator
+
+Les fichiers de configuration sont sensiblement différents mais les fonctionnalités restent les mêmes.
+Cet outil en cli permet de les convertir en un format lisible pour Tmuxp.
+
+### Tmuxp convert
+
+On peut actuellement utiliser 3 types de fichiers de config différents :
+
+- du python pure
+- du yaml
+- du json
+
+Si l'on veut passer de l'un à l'autre, cet outil en cli est juste indispensable
+
 ### Remarques
 
 Il manque sans doute le support de **Toml** : le meilleur format de conf de tout les temps!
@@ -85,7 +117,7 @@ Il manque sans doute le support de **Toml** : le meilleur format de conf de tout
 
 ### une ligne de commande permettant de supprimer l'ensemble des sessions Tmux
 
-Rajouter ceci dans votre zshrc ou votre bashrc :
+Rajouter ceci dans votre **.zshrc** ou votre **.bashrc** :
 
     #!bash
     function tmux_kill_all_sessions() {
