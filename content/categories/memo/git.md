@@ -52,7 +52,7 @@ Donne la liste des commits de différence entre les 2 branches
 
 ## remote
 
-On supprime de notre *repository local* toutes les branches remote qui n'existent plus
+On supprime de notre **repository local** toutes les branches remote qui n'existent plus
 
     #!bash
     git remote prune origin

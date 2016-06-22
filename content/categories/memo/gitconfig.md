@@ -10,29 +10,29 @@ Summary:
 
 ## Intro
 
-L'utilisateur avancé de GIT à forcément un gitconfig "couteau suisse" sous la main.
+L'utilisateur avancé de **GIT** à forcément un gitconfig "couteau suisse" sous la main.
 Voici une partie du mien avec les commentaires adéquats.
 
 ## config
 
-        !sh
-        [alias]
-            ci = commit
-            co = checkout
-            st = status
-            t = tag
-            c = commit
-            ch = checkout
+    #!sh
+    [alias]
+        ci = commit
+        co = checkout
+        st = status
+        t = tag
+        c = commit
+        ch = checkout
 
-            br = branch
+        br = branch
 
-            push = "push --recurse-submodules=on-demand"
+        push = "push --recurse-submodules=on-demand"
 
-            prev = checkout HEAD^1
+        prev = checkout HEAD^1
 
-            next = "!sh -c 'git log --reverse --pretty=%H master | awk \"/$(git rev-parse HEAD)/{getline;print}\" | xargs git checkout'"
+        next = "!sh -c 'git log --reverse --pretty=%H master | awk \"/$(git rev-parse HEAD)/{getline;print}\" | xargs git checkout'"
 
-            last = "!sh -c 'git checkout $(git describe --tags $(git rev-list --tags --max-count=1))'";
+        last = "!sh -c 'git checkout $(git describe --tags $(git rev-list --tags --max-count=1))'";
 
 ## Explication
 
