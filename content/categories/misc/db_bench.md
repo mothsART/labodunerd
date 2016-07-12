@@ -1,5 +1,5 @@
 Title: Bench de bases de données
-Category: 
+Category: misc
 Tags: sql, db, bench, benchmark
 Date: 2015-12-11 00:00
 Modified: 2015-12-11 00:00

@@ -2,6 +2,7 @@ Title: The QuiZz : Partie 1
 Category: rust
 Tags: rust, gettext, cli, postgresql
 Date: 2016-10-05 19:12
+Modified: 2016-06-20 21:05
 Slug: the-quizz-part-1
 Authors: Jérémie Ferry
 Status: published
@@ -14,7 +15,7 @@ Après mon apprentissage de Rust (doc, tutos etc.), j'ai décidé de m'atteler �
 Comme toujours, je pars du principe qu'il vaut mieux se lancer sur des projets minimalistes et allez au bout plutôt que de partir dans du gargantuesque et bacler.
 
 **The QuiZz** c'est donc un logiciel créé dans l'optique d'apprendre **Rust** et ses librairies, le tout en plusieurs étapes :
-[https://github.com/mothsART/the_quizz](https://github.com/mothsART/the_quizz)
+[dépôt Git : Etape 1](https://github.com/mothsART/the_quizz/releases/tag/part1)
 
 ## L'étape 1 : le minimum syndical mais quelques bases tout de même
 

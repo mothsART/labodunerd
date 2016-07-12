@@ -1,9 +1,9 @@
 Title: Encodage
-Category: 
-Tags: 
+Category: misc
+Tags: utf, encodage
 Date: 2015-12-11 00:00
 Modified: 2015-12-11 00:00
-Slug: 
+Slug: encodage
 Authors: Jérémie Ferry
 Status: published
 Summary:
