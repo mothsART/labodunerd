@@ -1,14 +1,12 @@
 Title: Pelican's Template
 Category: Misc
-Tags: pelican
-Date: 2016-02-14 00:00
-Modified: 2016-02-14 00:00
+Tags: template
+Date: 2016-02-14 00:01
+Modified: 2016-07-28 12:45
 Slug: pelicans-template
 Authors: Jérémie Ferry
 Status: published
 Summary:
-
-# Title 1
 
 ## Title 2
 

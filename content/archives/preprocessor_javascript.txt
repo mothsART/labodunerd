@@ -1,0 +1,8 @@
+Optimiser les requêtes HTTP ont toujours été une de mes lubies.
+
+J'ai toujours trouvé déplorable que pour un site qui nécessite 3 appel à une lib/framework javascript, on soit obligé d'inclure la lib/framework en entier.
+
+Pourtant, le C nous a appris à ce servir de préprocesseur pour éviter ce genre de surmenage?
+
+Voici un exemple ou je vais utiliser dans un premier temps la lib "https://www.npmjs.com/package/preprocessor" puis simplement le pré-processeur de gcc. (pourquoi ré-inventer la roue?)
+

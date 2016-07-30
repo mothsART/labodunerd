@@ -1,8 +1,8 @@
 Title: Pourquoi je boude Node.Js
 Category: reflexion
 Tags: javascript, web
-Date: 2016-03-19 16:00
-Modified: 2016-03-19 16:00
+Date: 2016-03-19 16:01
+Modified: 2016-07-30 13:00
 Slug: pourquoi-je-boude-nodejs
 Authors: Jérémie Ferry
 Status: published
@@ -39,7 +39,7 @@ Les inconvénients
 
 ## Et demain
 
-Depuis la proposition d'un bytecode commun par Mozilla (asm.js), les choses ont pas mal évolués et (Webassembly)[http://www.developpez.com/actu/97050/Google-Microsoft-et-Mozilla-proposent-une-demonstration-fonctionnelle-de-WebAssembly-le-projet-ambitionne-de-devenir-le-code-binaire-du-web/]
+Depuis la proposition d'un bytecode commun par Mozilla (asm.js), les choses ont pas mal évolués et [Webassembly](http://www.developpez.com/actu/97050/Google-Microsoft-et-Mozilla-proposent-une-demonstration-fonctionnelle-de-WebAssembly-le-projet-ambitionne-de-devenir-le-code-binaire-du-web)
 semble LA solution commune.
 
 Une fois que 90% navigateurs sur le marché auront cet API stable de disponible, il sera aisé de se passer complètement de Javascript : envisageable dans 5 à 10 ans selon mon indicateur pifométrique.

@@ -1,0 +1,99 @@
+Dans cet article, je me permet de coucher les principes que j'applique dans mon developpement :
+Pas d'inovations mais bien des compilations de plusieurs idées qui circulent...
+
+* DRY : Don't Repeat Yourself
+-----------------------------
+
+voir http://c2.com/cgi/wiki?DontRepeatYourself
+
+Plutôt que de réinventer la roue, il est aujourd'hui judicieux de regarder si ça existe déjà.
+Pour chaque problèmatique, quelqu'un c'est déjà creusé la tête dessus et souvent mieux que nous.
+Si c'est perfectible, voir ci-dessous.
+
+* Do it Yourself :
+------------------
+
+Quand est projet connait des limites ou que ça n'existe pas, le mieux est de se plonger dedans et de le faire!
+Surtout que participer à un projet ne peut que être bénéfique et enrichissant.
+
+De plus, dans un projet Ad-Hoc, l'outil idéal ne demande qu'à être créé.
+Lavoisier disait également : rien ne se crée, tout se transforme!
+
+* Impossible n'est pas français  :
+----------------------------------
+
+Tout le monde savait que c'était impossible à faire. Puis un jour quelqu'un est arrivé qui ne le savait pas, et
+il l'a fait.(Winston Churchill)
+
+Du moment ou l'on a le temps et l'énergie disponible, le principal frein à l'inovation et le sentiment d'être dépassé avant de se lancer.
+
+* Se documenter n'est pas une perte de temps :
+----------------------------------------------
+
+Avant d'attaquer l'everest, il faut d'abord s'informer aurpès de ceux qui l'ont franchi avant nous.
+Le sage apprend de ses erreurs, celui qui est plus sage le fera des erreurs des autres.
+
+Si l'on veut s'attaquer à un problème majeur, s'informer avant peut parraitre contre-productif mais ça paiera au final. (exemple perso : création d'un service de plugin pour Mypaint : inspiration sur Gimp)
+
+Dans un monde de l'information, les rois du pétrole sont ceux qui savent y accéder.
+Il est impossible de tout connaitre donc il est important d'accéder à l'information la plus pertinente le plus rapidement.
+
+Bien choisir ses outils c'est aussi perdre moins de temps sur du récurrent.
+
+* Les pierres se trouvent facilement, le mortier se prépare :
+-------------------------------------------------------------
+
+La grande révolution de l'ère Internet c'est que beaucoup de choses existent déjà.
+Brut, certes; solitaire également.
+Le génie réside souvent à réunir plusieurs idées.
+La glue dans le monde python en somme!
+
+* Séparer pour mieux reigner :
+------------------------------
+
+Afronter un projet trop volumineux est forcément pénalisant.
+ça entraine beaucoup de frustrations :
+* On a pas le même niveau au début et à la fin : du coup, certains défauts de jeunesse sont à corriger mais les efforts sont trop conséquent donc abandont.
+* Debugger est beaucoup plus simple dans un petit projet que dans un grand.
+* qui dit petit dit modularité
+* si un petit projet est retravaillé from strach car sa conception est mauvaise... c'est toujours moins de boulot qu'un gros projet
+
+* Roadmap :
+-----------
+
+Etablir une roadmap afin d'arriver rapidement à un projet stable et utilisable :
+* quand on est perfectionniste, on veut toujours en rajouter, du coup on reste comme une débian... toujours en l'état non fini.
+* avoir une branche stable permet une certaine reconnaissance surtout dans le libre donc des contributions.
+* donne le sentiment d'être allé au bout de quelque chose.
+* savoir s'arrêter : ça permet également d'avoir une vue d'ensemble.
+* concevoir un programme qui marche avant de l'optimiser (
+
+API
+
+* L'utilisateur est un idiot et "Keep it simple, stupide" (kiss) :
+------------------------------------------------------------------
+
+Réfléchir à l'envers peut être particulièrement judicieux
+
+* Les lois (zen) du langage python : immuables!
+-----------------------------------------------
+
+http://www.python.org/dev/peps/pep-0020/
+
+* La documentation c'est aussi programmer :
+-------------------------------------------
+
+
+Quand on documente un soft, on organise sa pensée, le but de son travail.
+On le formalise.
+Ca permet également de savoir si l'on va dans la bonne direction.
+
+Passer par le papier avant de créer un soft permet d'être clair dans son objectif et d'y rester attaché comme un pitbul.
+
+Aller vers la programmation lettré :
+
+"Je crois que le temps est venu pour une amélioration significative de la documentation des programmes, et que le meilleur moyen d'y arriver est de considérer les programmes comme des œuvres littéraires. D'où mon titre, « programmation lettrée".
+
+* Moi qui croyait que programmer c'était créer : "on m'aurait menti?"
+
+D'autres dirait : "90% du temps de programmation sert à débugger, le reste à créer des bugs."

@@ -1,0 +1,5 @@
+No completion on "git cherry" or "git cherry-pick"
+
+Not "The most commonly used git commands are:"
+
+git help -a

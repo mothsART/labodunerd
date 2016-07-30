@@ -1,6 +1,6 @@
 Title: Le stockage côté Javascript
 Category: frontend
-Tags: javascript frontend stockage sql
+Tags: javascript,frontend,stockage,sql
 Date: 2016-03-19 16:00
 Modified: 2016-03-19 16:00
 Slug: stockage-frontend

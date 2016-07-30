@@ -1,0 +1,22 @@
+1. tester une vue partielle sans déclarer de model
+
+2. Utiliser ViewContent
+
+https://dotnetfiddle.net/vnwZyt
+
+CustomViewModelMetadataProvider dans global.asax.cs => http://stackoverflow.com/questions/20602000/dynamic-model-non-class-metadata-provider-in-mvc
+
+http://stackoverflow.com/questions/7027613/how-to-retrieve-data-annotations-from-code-programmatically
+
+
+======
+
+http://codepen.io/Sonick/pen/cCmxb
+
+http://harvesthq.github.io/chosen/
+
+https://github.com/silviomoreto/bootstrap-select
+
+http://helpcenter.onlyoffice.com/fr/tipstricks/using-search.aspx
+
+https://icomoon.io/#icons

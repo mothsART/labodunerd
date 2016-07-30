@@ -1,0 +1,52 @@
+io.js et convergence n’existent plus (voir: https://iojs.org/fr/)
+
+La guerre des frameworks se tasse. React semble bien parti pour gagner (Angular 2 et ça réécriture complète, on va s’en passer)
+
+On peut se contenter de Flux et Redux pour gérer la state de notre app.
+
+Utiliser et pousser ES6, ignorer tous ces langages qui transpilent en JS.
+
+Effectivement, c’est un gros chant de bataille, mais une fois une bonne solution trouvée, le calme semble retomber (ex: Depuis l’arrivée de Redux, combien d’implémentations de Flux sont sorties?)
+
+Après, la mise en place d’une stack “universelle”, ça reste pas demain la veille.
+
+=================
+=================
+
+pleeease :
+	- CSS MQPacker
+	- rem -> px
+	- autoprefixer
+
+	- ajouter des warnings lorsqu'on a des :before/:after sans content ?
+	- :focus est toujours couplé à :hover ?
+cssnext :
+	- `rem` units fallback (to px)
+
+uncss : https://github.com/giakki/uncss
+	- supprime le css en trop
+
+postcss :
+	- doiuse (analyse avec la base de caniuse)
+	- postcss-color-mix (mixer 2 couleurs)
+	- css-byebye
+	- postcss-focus ou 
+	- css-mqpacker
+	- postcss-colorblind (daltoniens)
+
+===============
+
+https://github.com/SlexAxton/css-colorguard
+
+===============
+
+https://css-tricks.com/viewport-sized-typography/
+
+===============
+
+Vorlon.js
+
+===============
+
+atom.io
+

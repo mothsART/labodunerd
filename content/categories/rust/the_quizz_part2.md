@@ -41,8 +41,8 @@ Vu que j'ai carte libre, je parts donc sur cette techno.
 
 Pour compiler le template, il suffit d'utiliser
 
-  #!sh
-  cargo run --bin compile_templates
+    #!sh
+    cargo run --bin compile_templates
 
 
 ### Refactoring
@@ -82,7 +82,7 @@ L'utilisation d'une interface web n'étant pas véritablement équivalente, il y
 
 Si vous utilisez **[Tmux et Tmuxp](aide-memoire-tmux.html)**, voici une petite config qui devrait vous simplifier la vie :
 
-  #!yaml
+    #!yaml
     session_name: the quizz
     windows:
         - window_name: watch (web)
@@ -103,7 +103,6 @@ Si vous utilisez **[Tmux et Tmuxp](aide-memoire-tmux.html)**, voici une petite c
             - shell_command:
               - cargo run --bin the_quizz
             - git status
-```
 
 ## Conclusion
 
@@ -114,6 +113,6 @@ Les évolutions devraient ralentir de ce côté pour la suite.
 
 - Je viens de découvrir un **ORM** (viable) pour Rust : [diesel](http://diesel.rs) ça serait vraiment bête de s'en priver!
 
-- Utilisation des **API Html5** de stockage http://caniuse.com/#search=namevalue-storage et d'utilisation du mode offline : http://caniuse.com/#feat=offline-apps
+- Utilisation des [**API Html5** de stockage](http://caniuse.com/#search=namevalue-storage) et d'utilisation du [mode offline](http://caniuse.com/#feat=offline-apps)
 
 - Version Cli : détection des évènements souris

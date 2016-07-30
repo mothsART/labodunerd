@@ -1,7 +1,8 @@
 Title: Réflexion autour des Imprimantes 3D à usage domestique
 Category: réflexion
 Tags: imprimante, 3D
-Date: 2016-02-28 10:35
+Date: 2016-02-28 10:36
+Modified: 2016-07-28 13:05
 Slug: reflexion-imprimante-3D
 Authors: Jérémie Ferry
 Status: published
@@ -48,7 +49,7 @@ Plusieurs raisons :
 - il faut que la pièce soit en plastique (voir prérequis)
 - il faut que la pièce soit non mécanique ! Et oui, les contraintes mécaniques sont la plupart incompatible avec une pièce additive.
 De plus, certaines pièces (engrenage par exemple) sont de mauvaise qualité
-La solution à ça ressemble plus à l'utilisation de **Machine-Outil à Commande Numérique** : http://faitmain.org/volume-1/cncs.html
+La solution à ça ressemble plus à l'utilisation de **Machine-Outil à Commande Numérique** : [faimain](http://faitmain.org/volume-1/cncs.html)
 - s'il l'on veut reproduire des pièces (souvent le cas : 4 pièces identiques dont 1 défectueuse), il faut s'équiper d'un scanner 3D : la pièce issu du scanner demandera souvent d'être retouché avant d'être utilisable par l'imprimante.
 - Un ou plusieurs annuaire de pièces : si l'on ne veut pas créer sa pièce de toute part, c'est qu'on veut la récupérer sur le web...
 Chercher une aiguille dans une botte de foin prend tout son sens et même si l'on trouve, la qualité de la pièce peut être très discutable.

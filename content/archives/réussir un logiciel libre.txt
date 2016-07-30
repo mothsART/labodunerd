@@ -1,0 +1,111 @@
+A travers cet article, j'essai de comprendre et d'expliquer quels sont les points clés pour qu'un logiciel libre devienne connu et renommé.
+
+1/ Un nom explicite et une mascotte :
+-------------------------------------
+
+Ce qui fait la richesse des logiciels libres c'est qu'ils laissent une trace réel dans l'imaginaire collectif.
+GNU, Firefox, Gnome, GIMP etc ont des noms Charismatiques.
+De plus, ils offrent souvent un aspect ludique voir humoristique.
+Enfin, ils sont souvent basé sur des acronymes récursifs : GNU is Not Unix ou GNU Image Manipulation Program.
+
+La mascotte donne une représentation visuel forte :
+
+Le poney pour Django
+Un renard roux pour Firefox
+Un éléphant pour PostgreSQL
+
+2/ Un logiciel "entièrement" libre :
+------------------------------------
+
+Pour que la communauté suive, il faut qu'elle soit en confiance.
+Pour cela, le logiciel doit d'une part utiliser une license correspondante :
+GNU v2 ou 3 ou BSD sont les plus connus et reconnus.
+Sortir des sentiers risque de perdre du monde en route.(ex : license apache, license creative commons etc.)
+
+De plus, un ou plusieurs langages libres et populaires.
+Je simplifirais naïvement la chose en disant :
+C/C++ pour le compilé
+Python pour l'interprété
+
+Intégration dans un ou plusieurs système de paquets (apt, rpm, pacman etc.) 
+Normes Posix
+
+
+3/ De la documentation :
+------------------------
+
+Pour pouvoir scander "READ THE F***ING MANUAL" à chaque question!
+
+Comme le disait fort bien Einstein : "Si vous ne pouvez expliquer un concept à un enfant de six ans, c'est que vous ne le comprenez pas complètement"
+En effet, une documentation riche va propulser le projet.
+Pour celà, le format RestructuredText est excellent couplé à Sphinx.
+
+Un wiki + un forum va dynamiser encore d'avantage.
+
+Une API simple et visible : doxygen + UML.(python : pyreverse)
+
+Enfin, l'internationalisation va encore élargir le champ.
+Cependant, il faut bien garder à l'oeil que le programme en lui-même se doit d'être en anglais ainsi que ses commentaires : elle est sans contestation la langue universel dans le domaine!
+
+3/ Une première version révolutionnaire :
+-----------------------------------------
+
+Le tout n'est pas de proposer un n-ième logiciel qui fait le café mais bien de créer de la valeur ajouté.
+Proposer un logiciel peu abouti et penser que la communauté va développer le reste est une chimère.
+Quand Linus Torvald à présenter sa première monture de Linux, il l'avait conçu et pensé intégralement...
+
+Il ne faut pas se leurer : les premières contributions correspondront soit à des retours (au mieux corrections) de bugs, traductions etc.
+Avant que de gros contributeurs mettent les pieds dans le plats, il faudra qu'ils trouvent une réelle motivation.
+
+4/ Un logiciel pointu :
+-----------------------
+
+Pour que le logiciel soit pérenne, il lui faut une conception digne de ce titre.
+POO, Design Pattern, algoritmes et gestions des exceptions voir IA (multi-agents, réseaux de neurones, algorithme évolutionniste)  ne dérogent pas à la règle.
+
+Diviser pour mieux reigner : lorsque le programme grossi, le mieux est de le fragmenter intelligement, les différents modules étant le plus autonomes possible des uns des autres.
+Il se doit d'utiliser également des librairies ou frameworks renommmés et épprouvés.
+Le génie se mesure des fois dans la mise en relation de projets distincts.
+
+5/ Batterie incluses :
+----------------------
+
+Le concept nous vient de Python : un programme se doit d'avoir le maximum d'outils à sa disposition pour être réellement un tout incontournable.(http://www.python.org/dev/peps/pep-0002/)
+
+6/ Keep it Simple, Stupid :
+---------------------------
+
+La logique KISS à fait de POSIX avec son shell une référence : des programmes "less, grep, find cut etc." combiner grâce aux pipes!
+Archlinux à le même adage et c'est rapidement trouvé un nom dans la jungle des distributions linux et ceci sans contribution d'une société (peut de grand peuvent s'en venter : gentoo, slackware et debian principalement)
+
+Enfin Python et sa politique l'intègre parfaitement :
+Tim Peters l'a énnoncé de la plus belle des manières : http://www.python.org/dev/peps/pep-0020/.
+
+7/ Pragmatisme :
+----------------
+
+Plutôt que de choisir la pureté, le mieux est de s'orienter vers le pragmatisme.
+Dans un monde ou le temps est de l'argent, on ne peut pas toujours atteindre la perfection... ou tout du moins pas tout de suite.
+Dans ce cas, il faut agir avec sagesse : faire ressortir l'essentiel dans le temps imparti.
+On pourra toujours revenir sur certains détails une fois que l'ensemble est plus abouti.
+Ne pas oublier que 60% (minimum) du travail d'un programmeur reste du débuggage.
+
+7/ Coder sans bugs (ou presque) :
+---------------------------------
+
+Qui dit logiciel conséquent dit bugs évidements.
+Pour les contrer, il faut certes de l'huile de coude mais également :
+	a/ des tests unitaires
+	b/ des tests fonctionnels
+	c/ du Profiling et BenchMarks
+	d/ des tests de sécurité + Fuzzing (Fusil) + SandBoxing (pySandBox ou Pypy)
+	c/ de l'annalyse de code statique (pyflakes) et dynamique (PyChecker).
+	d/ Un BugTracker on-line
+	e/ un dépot Mercurial ou GIT
+	f/ un système automatique de report de bugs si possible.
+
+	g/ une communauté d'utilisateurs : une bonne dose de tous les ingrédients ci-dessus, de bons référencements des sites dédiés et des articles dans plusieurs sites/forums libres devraient jouer en ma faveur.
+
+
+
+

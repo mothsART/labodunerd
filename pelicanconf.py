@@ -129,7 +129,6 @@ DEFAULT_LANG = 'fr'
 
 # Ace Editor
 ACE_EDITOR_PLUGIN = {
-    # 'ACE_EDITOR_THEME': 'pastel_on_dark',
     'ACE_EDITOR_SCROLL_TOP_MARGIN': 150,
     'ACE_EDITOR_MAXLINES': 200
 }
@@ -143,11 +142,13 @@ MD_EXTENSIONS = [
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
 
-DISQUS_SITENAME = 'lelabodunerd'
-DISQUS_CATEGORY_ID = "3506724"  # Dev
+#ISSO_SITEURL = 'http://localhost:9999'
 
-DISQUS_SECRET_KEY = 'Iq1skapIEykejHa4FwVcbomNJOKkm4CoUhTHXwiKrnNrWFDMRYvo6VUcbS5c5ode'
-DISQUS_PUBLIC_KEY = 'YbVM9ctM6uTgnAAWrezSFa1rwCiRhhNjjaPwBI9dmgcHJVYCmbw3PpwNgHcLdGzN'
+# DISQUS_SITENAME = 'lelabodunerd'
+# DISQUS_CATEGORY_ID = "3506724"  # Dev
+
+# DISQUS_SECRET_KEY = 'Iq1skapIEykejHa4FwVcbomNJOKkm4CoUhTHXwiKrnNrWFDMRYvo6VUcbS5c5ode'
+# DISQUS_PUBLIC_KEY = 'YbVM9ctM6uTgnAAWrezSFa1rwCiRhhNjjaPwBI9dmgcHJVYCmbw3PpwNgHcLdGzN'
 
 # CACHE_CONTENT = True
 # LOAD_CONTENT_CACHE = True

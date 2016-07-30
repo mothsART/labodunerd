@@ -1,7 +1,8 @@
 Title: Réflexion autour des DVCS
 Category: réflexion
 Tags: git, darcs, hg, mercurial
-Date: 2016-02-26 20:48
+Date: 2016-02-26 20:49
+Modified: 2016-07-28 13:09
 Slug: reflexion-dvcs
 Authors: Jérémie Ferry
 Status: published

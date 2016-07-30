@@ -1,0 +1,18 @@
+clés USB (bootable) de 4Go mini (~ 5€):
+    * distrib tails (anonyme : tor etc.)
+    * distrib archlinux
+    * distrib Ubuntu
+
+    * distrib sur-mesure pour du dépannage (SystemRescueCd)
+		* gparted
+		* Stress-ng (http://la-vache-libre.org/stress-ng-un-outil-pratique-pour-tester-la-stabilite-des-composants-de-votre-machine-en-charge-elevee/)
+		* nbwmon (http://la-vache-libre.org/nbwmon-un-outil-de-monitoring-tres-pratique-pour-analyser-le-debit-de-vos-connexions-en-temps-reel/)
+        * https://github.com/sivel/speedtest-cli
+
+* le stylo 3D : http://www.lestylo3d.com/produit/le-stylo-3d/?gclid=CKL_9ISclsACFYofwwodHS0A8A
+* imprimante 3D
+* scanner 3D : http://www.amazon.fr/3D-Systems-Sense-Scanner/dp/B00HLJFMMO/ref=sr_1_8?ie=UTF8&qid=1408138365&sr=8-8&keywords=imprimantes+3d
+
+http://shop.planetargon.com/ : t-shirt "oh my zsh"
+
+**DONE ** * couteau suisse : (leatherman)

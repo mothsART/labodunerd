@@ -1,0 +1,7 @@
+Voici les idées de thèmes de base à supporter pour mon nouveau site :
+
+* http://bootswatch.com/lumen principalement
+* http://bootswatch.com/flatly
+* http://bootswatch.com/yeti
+* https://www.heroicdebugging.biz/2015/01/16/writing-pelican-plugin-tests/
+

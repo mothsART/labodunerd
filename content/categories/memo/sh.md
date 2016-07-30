@@ -13,7 +13,7 @@ Summary:
     #!bash
     find . | grep actual
 
-# Sed
+## Sed
 
 Remplacer une occurence par une autre sur un ensemble de fichiers
 

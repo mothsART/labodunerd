@@ -3,7 +3,7 @@ Category: rust
 Tags: rust
 Date: 2015-12-11 00:00
 Modified: 2015-12-11 00:00
-Slug: rust
+Slug: macros-rust
 Authors: Jérémie Ferry
 Status: published
 Summary:
@@ -11,8 +11,13 @@ Summary:
 ## Intro
 
 println!()
+
 format!()
+
 write!()
+
 try!()
+
 undefined!()
+
 assert!()
