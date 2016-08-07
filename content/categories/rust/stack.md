@@ -22,8 +22,53 @@ Vous n'utilisez pas **Sublime** ou vous désirez en savoir d'avantage : https://
 
 ## Editeurs en ligne
 
-- [editeur](https://play.rust-lang.org/)
+- [editeur](https://play.rust-lang.org)
 - [editeur multi-fichiers](http://www.tutorialspoint.com/compile_rust_online.php) : permet d'éditer, compiler et exécuter des projets complets (répartis sur plusieurs fichiers) tout en proposant des outils d'import et d'export
+- [compilateur GCC](http://rust.godbolt.org)
+
+
+## [Cargo graph](#cargo-graph)
+
+Si vous désirez connaitre les dépendance de votre projet, vous pouvez étendre les fonctionnalités de **cargo** avec **[cargo graph](https://github.com/kbknapp/cargo-graph)**.
+
+Pour simplifier encore les choses, je me suis créé un petit script python :
+
+    #!python
+    import os
+    import sys
+    import subprocess
+    import toml
+    
+    os.chdir(sys.argv[1])
+    package_name = ''
+    with open("Cargo.toml", "r") as conffile:
+        config = toml.loads(conffile.read())
+        package_name = config["package"]["name"]
+    
+    subprocess.call(
+        "cargo graph --optional-line-style dashed --optional-line-color red"
+        * " --optional-shape box --build-shape diamond"
+        * " --build-color green --build-line-color orange"
+        * " >| {0}.dot".format(package_name),
+        shell=True
+    )
+    subprocess.call(
+        "dot -Tpng > {0}.png {0}.dot".format(package_name),
+        shell=True
+    )
+
+et dans mon **.zshrc** :
+
+    #!sh
+    graph () {
+        CARGO_PACKAGE_PATH=$PWD;
+        VIRTUAL_PATH="my_scripts"
+        launchPythonScript "python3 ./cargo_graph.py $CARGO_PACKAGE_PATH"
+    }
+
+Du coup, en appelant mon utilitaire **graph**, je vais créer automatiquement à la source de mon projet, un fichier **projet.dot** et **projet.png** correspondant.
+Le nom du projet est directement récupérer dans le Cargo.toml.
+
 
 ## bot Irc [Playbot](https://github.com/redox-os/playbot)
 
@@ -51,3 +96,9 @@ Il subsite donc des erreurs à l'exécution : pour les débusquer, **gdb** est n
     gdb target/debug/le_fichier_concerne
     (gdb) run
 
+## Déploiement
+
+    #!sh
+    cargo build --release
+
+https://github.com/mmstick/cargo-deb

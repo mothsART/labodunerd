@@ -9,9 +9,22 @@ Summary:
 
 ## Intro
 
+## $PATH
+
+variable linux incontournable donnant la liste des répertoires contenant des programmes executables.
+
+    #!sh
+    echo $PATH | tr : \\n
+
+## pk-config
+
+## stat
+
+permet de tester si un fichier existe et donner le 
+
 ## sync
 
-Découvert avec une installation de raspberry pi : permet de synchroniser les mémoires avec le disque.
+Découvert avec une installation de **raspberry pi** : permet de synchroniser les mémoires avec le disque.
 Ecrit sur le disque toutes les données dans les tampons en mémoire. Ceci peut inclure les superblocs modifiés, les inœuds modifiés, et les écritures différées.
 
 ## strace

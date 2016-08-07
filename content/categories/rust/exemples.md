@@ -50,3 +50,10 @@ Des exemples de code Rust que je réutilise (mais que je n'arrive pas à mémori
         println!("{:?}", ah);
         println!("{:?}", ai);
     }
+
+Des traits pour de la programmation générique :
+https://github.com/apasel422/eclectic
+
+des websockets :
+
+https://github.com/housleyjk/ws-rs

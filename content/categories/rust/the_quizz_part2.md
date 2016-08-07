@@ -2,6 +2,7 @@ Title: The QuiZz : Partie 2
 Category: rust
 Tags: rust, gettext, cli, postgresql
 Date: 2016-05-14 12:12
+Modified: 2016-08-07 14:35
 Slug: the-quizz-part-2
 Authors: Jérémie Ferry
 Status: published
@@ -25,6 +26,18 @@ Ok, c'est vraiment too much pour une partie 2 mais ça met les bases pour les é
 
 ## côté serveur (Rust)
 
+Nous avons désormais plusieurs binaires à gérer.
+
+Désormais pour lancer l'appli Cli :
+
+    #!sh
+    cargo run --bin the_quizz
+
+Et pour l'appli web :
+
+    #!sh
+    cargo run --bin the_quizz_web
+
 ### Les plugins
 
 - staticfile : permet d'inclure des fichiers statiques (javascript, css, html, polices, images etc.)
@@ -35,7 +48,7 @@ Ok, c'est vraiment too much pour une partie 2 mais ça met les bases pour les é
 
 Je suis encore un utilisateur de **Django** et **Flask** et des langages de templates tel que **Jinja**.
 
-J'ai découvert que **Jinja** était en parti supporté par **Rust** via [**Tera**](https://github.com/Keats/tera)
+J'ai découvert que **Jinja** était en parti supporté par **Rust** via **[Tera](https://github.com/Keats/tera)**
 
 Vu que j'ai carte libre, je parts donc sur cette techno.
 
@@ -55,20 +68,30 @@ Pour ceux qui ne l'on pas encore compris, j'ai un vrai mépris pour les technos 
 
 Néanmoins, je vais essayer d'en tirer le meilleur en utilisant [**ma nouvelle stack frontend**](stack-frontend.html)
 
+Afin de créer l'ensemble des fichiers statiques du projet, il vous suffirat de faire :
+
+    #!sh
+    cd static && gulp
+
 ## IHM
 
 L'utilisation d'une interface web n'étant pas véritablement équivalente, il y a quelques différences :
 
 - pas de possibilité de quitter l'applicatif
+- les raccourcis clavier ne peuvent être équivalent : en revanche, vous pouvez passez d'un bouton à un autre avec <kbd>Tab</kbd> ou <kbd>MAJ</kbd> + <kbd>Tab</kbd> et valider ce choix avec <kbd>↵</kbd> (touche entrée)
 
 ### Si vous utilisez une mauvaise version de NodeJS
+
+Plusieurs librairies sont encore imcompatibles avec la dernière version de NodeJS (6).
+Un sous-dépendance me pose encore soucis à l'heure actuel : il est donc nécessaire de passer par une version plus ancienne.
+Si vous souhaitez être tranquille, je pense que Node 4 (une version LTS) me semble le plus approprié.
 
 * 1 Vider le cache de NPM
 
         #!sh
         sudo npm cache clean -f
 
-* 2 Installer un mini soft appelé tout simplement **n** qui gère exclusivement l'installation de NPM
+* 2 Installer un mini soft appelé tout simplement **n** qui gère exclusivement l'installation de **Node**
 
         #!sh
         sudo npm install -g n
@@ -76,7 +99,7 @@ L'utilisation d'une interface web n'étant pas véritablement équivalente, il y
 * 3 Installer la dernière version stable de NPM
 
         #!sh
-        sudo n stable
+        sudo n stable # pour node 5 et sudo n lts pour la version 4
 
 ## Bounty
 
@@ -92,7 +115,8 @@ Si vous utilisez **[Tmux et Tmuxp](aide-memoire-tmux.html)**, voici une petite c
           panes:
             - shell_command:
               - cd static
-              - echo 'gulp riot'
+              - echo 'gulp'
+              - gulp
             - cargo run --bin compile_templates
             - cargo run --bin the_quizz_web
         - window_name: cli
@@ -107,6 +131,11 @@ Si vous utilisez **[Tmux et Tmuxp](aide-memoire-tmux.html)**, voici une petite c
 ## Conclusion
 
 Y'a vraiment beaucoup de dépendances abordées dans cette étape.
+
+D'ailleurs, il est désormais possible de les voir via un graphique.
+
+Vous pouvez en faire autant : [créer un graphique de dépendance Rust](./stack-rust.html#cargo-graph)
+
 Les évolutions devraient ralentir de ce côté pour la suite.
 
 ## Evolution pour l'étape n° 3

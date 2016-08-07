@@ -49,6 +49,22 @@ C'est très basique mais par conséquent très simple à appréhender.
 
 Enfin, le logiciel répond par **✔** ou **✘**.
 
+## Config de PostGreSQL
+
+Je pars du principe que vous savez configurer une base Postgres.
+
+Néanmoins, l'objectif de **the_quizz** étant la pédagogie, j'utilise une config volontairement simpliste : utilisation en **localhost** sans mot de passe.
+
+Si vous n'avez strictement aucun bagage, le mieux est de paramêtrer ainsi votre fichier **/pg_hba.conf**
+
+    #!ini
+    local   all             all                                     trust
+
+et de le redémarrer via
+
+    #!sh
+    sudo service postgres restart
+
 ## Populariser sa base
 
     #!sql

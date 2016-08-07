@@ -13,7 +13,7 @@ Etant un jeune papa et défenseur d'un numérique ouvert, citoyen (liberté, ég
 
 Pour l'instant, ça ne concerne que la création d'illustrations.
 
-L'objectif est à multiple tranchants : elle va concerner **[Wikipédia Commons](https://commons.wikimedia.org)** et **[VikiDia](https://fr.vikidia.org)** dans la foulée.
+L'objectif est à multiple tranchants : elle va concerner **[Wikipédia Commons](https://fr.wikipedia.org/wiki/Utilisateur:MothsART)**, **[VikiDia](https://fr.vikidia.org/wiki/Utilisateur:MothsART)** et **[OpenClipArt](https://openclipart.org/user-detail/mothsart)** dans la foulée.
 
 ## Les pré-requis
 
@@ -90,6 +90,7 @@ Après, je serais quitte de dépasser...
 ## L'épreuve du feu
 
 Faire participer mes enfants au projet!
+
 Leur intérêt, avis, impression doit avoir une conséquence favorable ou une remise en question.
 
 ## Conclusion

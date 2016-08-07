@@ -20,6 +20,10 @@ Npm va chercher ses dépendances dans un fichier packages.json (éditable via np
     #!sh
     npm install
 
+Si certaines dépendances facultatives pose soucis :
+
+    #!sh
+    npm install --no-optional
 ### installer les dépendances utilisé uniquement en développement
 
     #!sh
