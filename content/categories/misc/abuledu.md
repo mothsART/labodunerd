@@ -69,6 +69,12 @@ On pourrais définir ça comme de l'extrémisme mais j'ai remarqué que ce type 
 Dans l'idéal, il faudrait que l'illustration soit visible pour un pc reconditionné, ayant déjà d'autres applicatifs (plus ou moins gourmant d'ouvert).
 - Support Hétérogène : là je parle principalement des filtres SVG : tous les moteurs de rendu ne les supportent pas ou pas pleinement.
 
+### Optimisation du SVG
+
+[SVGO](https://github.com/svg/svgo)
+
+[Bien comprendre SVG](https://vimeo.com/179313779)
+
 ## Cohérence graphique
 
 Ca peut paraitre évident mais néanmoins nécessaire.
@@ -76,7 +82,7 @@ Mes illustrations resterons cantonnés sur le même style : plutôt réaliste (s
 
 La plupart du temps, je vais composer mes dessins à partir de plusieurs sources sur Internet avec une étape intermédiaire papier pour composer mon image.
 
-Sur Inkscape, je pose les grandes lignes (propotions) et affine jusqu'à arriver au résultat final.
+Sur Inkscape, je pose les grandes lignes (proportions) et affine jusqu'à arriver au résultat final.
 
 ## License
 
@@ -99,5 +105,6 @@ Après la réflexion, l'action !
 
 ## Mes réalisation
 
-[Mastondonte](https://commons.wikimedia.org/wiki/File:Mastodonte.svg)
+[Campement du Paléolithique](./abuledu-camp-paleolithique.html)
 
+[Mastondonte](https://commons.wikimedia.org/wiki/File:Mastodonte.svg)

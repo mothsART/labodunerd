@@ -51,6 +51,25 @@ Des exemples de code Rust que je réutilise (mais que je n'arrive pas à mémori
         println!("{:?}", ai);
     }
 
+## Passer de str à String et inversement
+
+### str à string
+
+    #!rust
+    let machaine_str:&'static str = "ma chaine";
+    let machaine_string:String = machaine_str.to_owned();
+
+ou
+
+    #!rust
+    let machaine_str:&'static str = "ma chaine";
+    let machaine_string:String = machaine_str.to_string();
+
+### String to str
+
+    #!rust
+    let manouvellechaine_str:&str = &*machaine_string;
+
 Des traits pour de la programmation générique :
 https://github.com/apasel422/eclectic
 

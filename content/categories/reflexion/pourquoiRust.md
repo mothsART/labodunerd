@@ -36,7 +36,8 @@ La première catégorie est forcément mieux armé pour faire face à des probl�
 Bref, les problématiques rencontrés par tous les développeurs travaillant sur des projets sérieux.
 
 **Python**, **Javascript** et **C#** (dans une moindre mesure) ne sont tout simplement pas fait pour ce genre de chose.
-* D'une part, la gestion de la mémoire se fait via un ramasse-miettes (garbage collector).
+* D'une part, la gestion de la mémoire se fait via un ramasse-miettes (garbage collector) donc mémoire sur le tas (https://github.com/GuillaumeGomez/fr_rust_book/blob/master/la-pile-et-le-tas.md) et soucis quasi insoluble de libération total.
+
 * Ces langages passent par des machines virtuelles qui interpréte (via du bytecode) et convertisse à la volé en code machine.
 Il est par conséquent impossible d'avoir du code aussi rapide en interprété quand compilé (par analogie, le chemin le plus court entre 2 points est la ligne droite). 
 Même si on peut s'en rapprocher, le soucis de l'empreinte mémoire d'une VM et son temps de lancement reste insoluble.
@@ -74,7 +75,7 @@ Prendre 1 heure pour faire quelque chose qui nous prend 5 minutes dans un autre 
 
 ## Les gros avantages
 
-- différenciation entre *espace de nommage* et appel d'un attribut (propriété et méthodes).
+- différenciation entre **espace de nommage** et appel d'un attribut (propriété et méthodes).
 C'est un peu déroutant quand on vient de **Python** et **C#** qui utilise que le **.** point délimiter les 2 aspects.
 Problème => des confusions et des conflits possibles entre un nom et une propriété! En un mot : inadmissible !
 **Rust** a choisi de distinguer les 2 et c'est tout bonnement pythonnesque : explicite is better than implicite => **::** délimiter les espaces de nommage et **.** pour appeler un attribut.

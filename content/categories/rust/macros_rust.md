@@ -10,14 +10,34 @@ Summary:
 
 ## Intro
 
-println!()
+println!
 
-format!()
+format!
 
-write!()
+write!
 
-try!()
+try!
 
-undefined!()
+undefined!
 
-assert!()
+assert!
+
+assert_eq!
+
+panic!
+
+unreachable!
+
+unimplemented!
+
+column!
+
+line!
+
+file!
+
+vec!
+
+log_syntax!
+
+trace_macros!

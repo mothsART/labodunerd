@@ -82,12 +82,22 @@ Le nom du projet est directement récupérer dans le Cargo.toml.
         println!("{:?}", std::mem::size_of::<bool>());
     }
 
+
+## Coverage
+
+https://users.rust-lang.org/t/tutorial-how-to-collect-test-coverages-for-rust-project/650
+
+https://github.com/hyperium/hyper/blob/master/.travis.yml
+
 ## Débuggage
 
 Dans votre bashrc et/ou zshrc :
 
     #!sh
     export RUST_BACKTRACE=1
+
+    #sh
+    strace cargo run --bin projet
 
 Rust fait beaucoup de vérifications au niveau de la compilation mais ne peut bien évidement pas couvrir la partie dynamique.
 Il subsite donc des erreurs à l'exécution : pour les débusquer, **gdb** est notre ami.

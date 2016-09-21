@@ -61,6 +61,7 @@ PLUGIN_PATHS = [
 
 PLUGINS = [
     'assets', 'sitemap', 'gravatar',  #'i18n_subsites',
+    'liquid_tags.video',
     'i18n', 'ace_editor',
     'tipue_search', "tag_cloud"  #, 'disqus_static'
 ]

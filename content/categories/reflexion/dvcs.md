@@ -33,5 +33,7 @@ Du coup, ça donne une vrai souplesse d'utilisation.
 ## Points négatifs
 
 - pas de suivi de bugs ni de wiki (voir **fossil**) mais pourrait être facilement possible en normalisant des sous-modules.
+http://sebsauvage.net/wiki/doku.php?id=fossil
+
 - ne fonctionne pas selon la **théorie des patchs** tel que le fait **Darcs** ou **[PIJUL](http://pijul.org)**
 - permettre des hooks à partir de langages de haut niveau est souvent délicat et nécessite de passer un fichier shell en amont
