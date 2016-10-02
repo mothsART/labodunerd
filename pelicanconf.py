@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Jérémie Ferry'
 SITENAME = 'Le Labo Du Nerd'
-SITEURL = ''
+SITEURL = 'mothsart.github.io'
 
 PATH = 'content'
 
