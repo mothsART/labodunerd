@@ -18,6 +18,9 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+FEED_ALL_RSS = 'feeds/all.rss.xml'
+CATEGORY_FEED_RSS = 'feeds/%s.rss.xml'
+
 DISPLAY_PAGES_ON_MENU = False
 
 TEMPLATE_PAGES = {
@@ -42,6 +45,11 @@ TEMPLATE_PAGES = {
     '../labo/frontend/modernizr/script.js': 'labo/frontend/modernizr/script.js',
     '../labo/frontend/modernizr/index.html': 'labo/frontend/modernizr/index.html',
 
+    '../labo/frontend/interactive_svg/index.html': 'labo/frontend/interactive_svg/index.html',
+    '../labo/frontend/interactive_svg/campement.min.svg': 'labo/frontend/interactive_svg/campement.min.svg',
+    '../labo/frontend/interactive_svg/interactive_svg.css': 'labo/frontend/interactive_svg/interactive_svg.css',
+    '../labo/frontend/interactive_svg/interactive_svg.js': 'labo/frontend/interactive_svg/interactive_svg.js',
+
     '../labo/base.html': 'labo/base.html'
 }
 
@@ -60,7 +68,7 @@ PLUGIN_PATHS = [
 ]
 
 PLUGINS = [
-    'assets', 'sitemap', 'gravatar',  #'i18n_subsites',
+    'assets', 'sitemap', 'filetime_from_git',  #'i18n_subsites',
     'liquid_tags.video',
     'i18n', 'ace_editor',
     'tipue_search', "tag_cloud"  #, 'disqus_static'
@@ -134,8 +142,6 @@ ACE_EDITOR_PLUGIN = {
     'ACE_EDITOR_MAXLINES': 200
 }
 
-# # Code highlighting
-# PYGMENTS_STYLE = 'emacs'
 MD_EXTENSIONS = [
     'codehilite(css_class=highlight, linenums=False, use_pygments=False)',
     'extra'
