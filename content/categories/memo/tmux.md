@@ -45,7 +45,7 @@ Par exemple, pour manager ce site, j'utilise cette config :
     #!yaml
     session_name: labodunerd website
     windows:
-
+    
     - window_name: labodunerd
       layout:  main-vertical
       shell_command_before:
@@ -55,7 +55,7 @@ Par exemple, pour manager ce site, j'utilise cette config :
         - shell_command:
           - cd output
           - python -m http.server
-
+    
     - window_name: labodunerd (git)
       layout:  main-vertical
       shell_command_before:
@@ -65,7 +65,7 @@ Par exemple, pour manager ce site, j'utilise cette config :
         - shell_command:
           - cd output
           - git st
-
+    
     - window_name: ace_editor plugin (git)
       layout:  main-vertical
       shell_command_before:

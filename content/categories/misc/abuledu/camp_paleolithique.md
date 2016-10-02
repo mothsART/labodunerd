@@ -15,7 +15,9 @@ L'article Vikidia : [Paléolithique](https://fr.vikidia.org/wiki/Pal%C3%A9olithi
 
 Le fichier sur OpenClipArt : [Prehistoric-camp](https://openclipart.org/detail/262113/prehistoric-camp)
 
+Une version interactive (encore experimental) : [Campement du Paléolithique interactif](./labo/frontend/interactive_svg/){:target="_blank"}
+
 Les étapes de réalisations :
 
-{% video ./static/movies/camp_paleolithic.mp4 876 620  /./static/images/camp_paleolithic.jpg %}
+{% video ./static/movies/camp_paleolithic.mp4 100% 100% /./static/images/camp_paleolithic.jpg %}
 

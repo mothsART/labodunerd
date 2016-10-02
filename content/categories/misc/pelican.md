@@ -26,6 +26,23 @@ Néanmoins, j'ai préféré continuer avec Pelican... je sais que le diable ce c
 
 * Possibilité de créer des pages avec des templates personnalisés
 
+### Plugins utilisés
+
+* Tag cloud : ajout de badges
+* Ace editor
+* Sitemap
+* assets
+* liquid_tags.video
+* tag_cloud
+
+* filetime_from_git : juste indispensable pour les feignasse comme moi qui n'ont pas envie d'éditer les dates de création et de modification d'un article. (attention, les dates sont modifiés sur l'article produit et non le source en markdown)
+
+## Plugins à intégrer
+
+* post_stats : étendre les fonctionnalités
+* subcategory
+
+
 ### Mes contributions
 
 Comme souvent, je trouve souvent des limitations/bugs à mes usages lorsque j'utilise une lib.
@@ -56,8 +73,6 @@ Voici mes contributions à ce générateur de site statique qui ne demande qu'à
 
         - Autolinker : [http://prismjs.com/plugins/autolinker](http://prismjs.com/plugins/autolinker)
 
-* création d'un plugin permettant l'i18n sans l'obligatation d'avoir au minimum 2 langues. (pas trouvé via le plugin "i18n_subsite")
-
 * création d'un thème perso :
 
     - [] I18n sur l'ensemble du site et des plugins
@@ -67,4 +82,10 @@ Voici mes contributions à ce générateur de site statique qui ne demande qu'à
     * [] **en cours** : Des URLs avec une ancre peuvent avoir des soucis avec un menu fixe :
       l'option ** SCROLL_TOP_MARGIN** permet de rajouter des pixels suplémentaires pour éviter cette contrainte.
     * [] **en cours** : Utilisation d'une page de référence pour mon template avec le maximum de règles : [pelicans-template.html](/pelicans-template.html)
+
+## Contribution à venir
+
+* création d'un plugin permettant l'i18n sans l'obligatation d'avoir au minimum 2 langues. (pas trouvé via le plugin "i18n_subsite")
+
+* transformation des [] et [X] en checkbox => utile pour des todolistes
 

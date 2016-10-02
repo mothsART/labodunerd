@@ -127,7 +127,7 @@ git rebase -i : permet de changer l'entête d'un commit => squasher ses commits
 
 git rebase -p / git rebase --preserve-merges => permet de garder l'historique des fusions...
 
-garder un fichier local -> git checkout --ours /path/to/file
+garder un fichier local -> git checkout --ours /path/to/file (si l'on veut tous les fichiers :  git checkout --ours *)
 garder un fichier distant -> git checkout --theirs /path/to/file
 
 puis git add /path/to/file
@@ -312,16 +312,30 @@ http://stackoverflow.com/questions/1265040/how-to-count-total-lines-changed-by-a
 
     #!bash
     git remote -v show => donne les url en fetch et en push
-
+    
     git remote rm origin
-
+    
     git remote add origin <url>
-
+    
     git remote set-url origin http://FerryJ%40MARSH.LOCAL:monmotdepasse@southp/Git/Dicsit.Core.git => changer de dépôt
     git remote set-url origin http://FerryJ%40MARSH.LOCAL:monmotdepasse@southp/Git/Dicsit.git
-
+    
     git clone --recursive http://FerryJ%40MARSH.LOCAL:monmotdepasse@southp/Git/Microsoins.NET.git
     git clone --recursive http://FerryJ%40MARSH.LOCAL:monmotdepasse@southp/Git/Dicsit.Core.git
+
+## Github
+
+La problématique : j'ai forké un projet git et j'ai soumis un fork il y a longtemps.
+Le projet en lui même à évolué et on me demande de rebasé mes commits.
+
+https://github.com/edx/edx-platform/wiki/How-to-Rebase-a-Pull-Request
+
+    #!bash
+    git remote add pelican https://github.com/getpelican/pelican
+    git fetch pelican
+    git rebase -i HEAD~3
+    git rebase pelican/master
+    git push -f
 
 ## Liens
 

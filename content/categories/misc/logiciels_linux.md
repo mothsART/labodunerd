@@ -17,4 +17,4 @@ J'ai découvert des applis sympas au fil de ma pérégrination
 Midori
 PCManFM : rempace allègrement Nautilus
 LXTerminal
-LXDE
+
