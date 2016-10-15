@@ -82,6 +82,10 @@ Le nom du projet est directement récupérer dans le Cargo.toml.
         println!("{:?}", std::mem::size_of::<bool>());
     }
 
+## Recherche de libs
+
+https://docs.rs/
+https://crates.io/
 
 ## Coverage
 

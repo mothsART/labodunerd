@@ -10,7 +10,17 @@ Summary:
 
 ## Intro
 
-println!
+### println!
+
+    #!rust
+    use std::fs::File;
+    
+    fn main() {
+        let x = File::open("nop");
+        println!("{:?}", x);
+        println!("");
+        println!("{:#?}", x);
+    }
 
 format!
 

@@ -11,3 +11,11 @@ Summary:
 ## Intro
 
 http://korben.info/installer-paquets-snap-ubuntu-ligne-de-commande.html
+
+## Explorer les snap via un moteur de recherche
+
+https://uappexplorer.com/
+
+## API
+
+https://wiki.ubuntu.com/AppStore/Interfaces/ClickPackageIndex
