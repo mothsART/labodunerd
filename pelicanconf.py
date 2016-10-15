@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Jérémie Ferry'
 SITENAME = 'Le Labo Du Nerd'
-SITEURL = 'mothsart.github.io'
+SITEURL = 'https://mothsart.github.io'
 
 PATH = 'content'
 
@@ -48,6 +48,7 @@ TEMPLATE_PAGES = {
     '../labo/frontend/interactive_svg/index.html': 'labo/frontend/interactive_svg/index.html',
     '../labo/frontend/interactive_svg/campement.min.svg': 'labo/frontend/interactive_svg/campement.min.svg',
     '../labo/frontend/interactive_svg/interactive_svg.css': 'labo/frontend/interactive_svg/interactive_svg.css',
+    '../labo/frontend/interactive_svg/jquery.min.js': 'labo/frontend/interactive_svg/jquery.min.js',
     '../labo/frontend/interactive_svg/interactive_svg.js': 'labo/frontend/interactive_svg/interactive_svg.js',
 
     '../labo/base.html': 'labo/base.html'
