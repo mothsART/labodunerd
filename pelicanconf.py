@@ -46,10 +46,10 @@ TEMPLATE_PAGES = {
     '../labo/frontend/modernizr/index.html': 'labo/frontend/modernizr/index.html',
 
     '../labo/frontend/interactive_svg/index.html': 'labo/frontend/interactive_svg/index.html',
-    '../labo/frontend/interactive_svg/campement.min.svg': 'labo/frontend/interactive_svg/campement.min.svg',
-    '../labo/frontend/interactive_svg/interactive_svg.css': 'labo/frontend/interactive_svg/interactive_svg.css',
-    '../labo/frontend/interactive_svg/jquery.min.js': 'labo/frontend/interactive_svg/jquery.min.js',
-    '../labo/frontend/interactive_svg/interactive_svg.js': 'labo/frontend/interactive_svg/interactive_svg.js',
+    '../labo/frontend/interactive_svg/static/campement.min.svg': 'labo/frontend/interactive_svg/static/campement.min.svg',
+    '../labo/frontend/interactive_svg/static/interactive_svg.css': 'labo/frontend/interactive_svg/static/interactive_svg.css',
+    '../labo/frontend/interactive_svg/static/jquery.min.js': 'labo/frontend/interactive_svg/static/jquery.min.js',
+    '../labo/frontend/interactive_svg/static/interactive_svg.js': 'labo/frontend/interactive_svg/static/interactive_svg.js',
 
     '../labo/base.html': 'labo/base.html'
 }

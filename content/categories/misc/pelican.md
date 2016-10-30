@@ -82,6 +82,9 @@ Voici mes contributions à ce générateur de site statique qui ne demande qu'à
     * [] **en cours** : Des URLs avec une ancre peuvent avoir des soucis avec un menu fixe :
       l'option ** SCROLL_TOP_MARGIN** permet de rajouter des pixels suplémentaires pour éviter cette contrainte.
     * [] **en cours** : Utilisation d'une page de référence pour mon template avec le maximum de règles : [pelicans-template.html](/pelicans-template.html)
+    * [] détections des liens externes cassés https://github.com/silentlamb/pelican-deadlinks
+    * [] créer des alias https://github.com/Nitron/pelican-alias
+    * [] créer un plugin qui détecte un changement d'url (avec git) et crée un alias à la volée. (une url ne devrait jamais renvoyer vers un 404 quand il est déplacé)
 
 ## Contribution à venir
 
