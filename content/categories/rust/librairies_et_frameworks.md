@@ -13,17 +13,17 @@ Summary:
 Depuis que Rust est en version 1.0, les choses se sont accélérés et beaucoup de librairies et frameworks ont pointé le bout de leur nez.
 Voici les plus connus trié par thème.
 
-# Base de données
+## Base de données
 
 diesel
 rust-redis
 
-# serialisation
+## serialisation
 
 serde
 rust_serialize
 
-# parser
+## parser
 
 nom
 

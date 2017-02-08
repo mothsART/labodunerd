@@ -26,7 +26,23 @@ Manilux Télé : [http://malinuxtele.tuxfamily.org](http://malinuxtele.tuxfamily
 
 **[VikiDia](https://fr.vikidia.org)** : Wikipédia pour le primaire (8 à 13 ans en réalité)
 
+http://cyrille.largillier.org/sitewp/
+
+viaeduc.fr
+
+## Distribution (Linux)
+
+Edubuntu
+PrimTux
+AbulEdu
+
+## Logiciels
+
 La suite Gcompris
 TuxPaint
-
 Tux Typing
+
+## Logiciels On-line
+
+http://ecole.edulibre.org/
+http://cyrille.largillier.org/cours_numerique/

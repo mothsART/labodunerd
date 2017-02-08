@@ -12,6 +12,18 @@ Ce **dev-blog-draft** est celui d'un passionné du #numérique.
 Souvent dans la remise en question, rarement satisfait, en recherche de singularité.
 Ce site est avant-tout un réel banc d'essai : **un labo** ou je m'éclate et écrit au fil de l'eau mes essais... il n'a donc pas de délais de livraison.
 
+Vous pouvez néanmoins me témoignez de votre soutient en me soutenant financièrement sur Liberapay :
+<p style="position: relative;padding: 0; margin-top: -10px;">
+    <span style="position: absolute;right: 6px;top: -25px;">
+        <script src="https://liberapay.com/mothsART/widgets/button.js"></script>
+        <noscript>
+            <a href="https://liberapay.com/mothsART/donate">
+                <img src="https://liberapay.com/assets/widgets/donate.svg">
+            </a>
+        </noscript>
+    </span>
+</p>
+
 ## L'auteur
 
 Un Nerd, sans doute dans sa définition pure : passionné de tout et de rien à la fois avec un profond attachement pour les maths, la physique, la science (et la science fiction), mais surtout pour ces domaines appliqués.

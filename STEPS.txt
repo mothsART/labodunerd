@@ -1,4 +1,4 @@
-wo linkmanager_website
+wo labodunerd
 pelican -r content
 
 

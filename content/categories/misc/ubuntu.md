@@ -16,9 +16,10 @@ Même si je n'approuve pas tous leurs choix, je trouve néanmoins qu'il y a plei
 
 ## Les idées intéressantes
 
+* Ubuntu sur mobile et tablette
 * dépôts PPA de launchpad
 * les snaps
 * les web apps.
 
-* liens tel que href="app://gnome-terminal"
+* les liens tel que href="app://gnome-terminal"
 href="apt://gnome-terminal">

@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
-
+import os
 
 AUTHOR = 'Jérémie Ferry'
 SITENAME = 'Le Labo Du Nerd'
@@ -24,35 +24,16 @@ CATEGORY_FEED_RSS = 'feeds/%s.rss.xml'
 DISPLAY_PAGES_ON_MENU = False
 
 TEMPLATE_PAGES = {
-    '../labo/frontend/ripple_onclick/animate.css': 'labo/frontend/ripple_onclick/animate.css',
-    '../labo/frontend/ripple_onclick/script.js': 'labo/frontend/ripple_onclick/script.js',
-    '../labo/frontend/ripple_onclick/index.html': 'labo/frontend/ripple_onclick/index.html',
-
-    '../labo/frontend/vanilla/benchmark.js': 'labo/frontend/vanilla/benchmark.js',
-    '../labo/frontend/vanilla/script.js': 'labo/frontend/vanilla/script.js',
-    '../labo/frontend/vanilla/index.html': 'labo/frontend/vanilla/index.html',
-
-    '../labo/frontend/dragndrop/script.js': 'labo/frontend/dragndrop/script.js',
-    '../labo/frontend/dragndrop/index.html': 'labo/frontend/dragndrop/index.html',
-
-    '../labo/frontend/menu_dragndrop/script.js': 'labo/frontend/menu_dragndrop/script.js',
-    '../labo/frontend/menu_dragndrop/index.html': 'labo/frontend/menu_dragndrop/index.html',
-
-    '../labo/frontend/modernizr/is.js': 'labo/frontend/modernizr/is.js',
-    '../labo/frontend/modernizr/modernizr-custom.js': 'labo/frontend/modernizr/modernizr-custom.js',
-    '../labo/frontend/modernizr/duckTypingBrowserDetection.js': 'labo/frontend/modernizr/duckTypingBrowserDetection.js',
-    '../labo/frontend/modernizr/pluginDetect.js': 'labo/frontend/modernizr/pluginDetect.js',
-    '../labo/frontend/modernizr/script.js': 'labo/frontend/modernizr/script.js',
-    '../labo/frontend/modernizr/index.html': 'labo/frontend/modernizr/index.html',
-
-    '../labo/frontend/interactive_svg/index.html': 'labo/frontend/interactive_svg/index.html',
-    '../labo/frontend/interactive_svg/static/campement.min.svg': 'labo/frontend/interactive_svg/static/campement.min.svg',
-    '../labo/frontend/interactive_svg/static/interactive_svg.css': 'labo/frontend/interactive_svg/static/interactive_svg.css',
-    '../labo/frontend/interactive_svg/static/jquery.min.js': 'labo/frontend/interactive_svg/static/jquery.min.js',
-    '../labo/frontend/interactive_svg/static/interactive_svg.js': 'labo/frontend/interactive_svg/static/interactive_svg.js',
-
     '../labo/base.html': 'labo/base.html'
 }
+
+FRONTEND_PATH = os.path.join(os.path.dirname(__file__), 'labo/frontend')
+for folder, subFolders, files in os.walk(FRONTEND_PATH, followlinks=True):
+    if '.git' in subFolders:
+        subFolders.remove('.git')
+    for file in files:
+        path = os.path.join(folder, file)
+        TEMPLATE_PAGES["../" + path] = path
 
 # static paths will be copied without parsing their contents
 STATIC_PATHS = [

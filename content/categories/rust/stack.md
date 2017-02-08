@@ -82,6 +82,10 @@ Le nom du projet est directement récupérer dans le Cargo.toml.
         println!("{:?}", std::mem::size_of::<bool>());
     }
 
+## Exemples
+
+http://dev.unhandledexpression.com/slides/devoxx-2016/
+
 ## Recherche de libs
 
 https://docs.rs/
@@ -116,3 +120,7 @@ Il subsite donc des erreurs à l'exécution : pour les débusquer, **gdb** est n
     cargo build --release
 
 https://github.com/mmstick/cargo-deb
+
+## En vrac
+
+http://rust.developpez.com/faq
