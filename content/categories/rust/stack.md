@@ -11,11 +11,16 @@ Summary:
 
 En vrac, les outils que j'utilise et perfectionne dans mon apprentissage et mon utilisation du language **Rust**.
 
+## MAJ de Rust
+
+    #!bash
+    curl -sf -L https://static.rust-lang.org/rustup.sh | sh
+
 ## Sublime-Text
 
 - Support de la coloration synthaxique de Rust [https://packagecontrol.io/installation](https://packagecontrol.io/)
 - BeautifyRust : formate le code Rust pour qu'il suive les bonnes conventions de codage. (et évite d'y penser)
-Nécessite et utilise : [rustfmt](https://github.com/rust-lang-nursery/rustfmt)
+Nécessite et utilise : **[rustfmt](https://github.com/rust-lang-nursery/rustfmt)**
 - RustAutocomplete
 
 Vous n'utilisez pas **Sublime** ou vous désirez en savoir d'avantage : https://areweideyet.com/

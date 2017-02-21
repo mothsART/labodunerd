@@ -24,6 +24,9 @@ Vous pouvez néanmoins me témoignez de votre soutient en me soutenant financiè
     </span>
 </p>
 
+ou sur Flattr :
+<a href="https://flattr.com/submit/auto?fid=6p1x1x&url=https%3A%2F%2Fmothsart.github.io%2F" target="_blank"><img src="//button.flattr.com/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0"></a>
+
 ## L'auteur
 
 Un Nerd, sans doute dans sa définition pure : passionné de tout et de rien à la fois avec un profond attachement pour les maths, la physique, la science (et la science fiction), mais surtout pour ces domaines appliqués.
