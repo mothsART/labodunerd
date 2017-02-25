@@ -11,3 +11,8 @@ Summary:
 ## 
 
 https://en.wikipedia.org/wiki/Error_level_analysis
+
+## Utilitaires On-line
+
+https://29a.ch/photo-forensics/
+http://fotoforensics.com/

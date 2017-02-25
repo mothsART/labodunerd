@@ -15,9 +15,13 @@ Tmux est un **multiplexeur** de terminal **configurable** qui gère aussi bien l
 
 ## Raccourci dans Tmux
 
-- killer la fenêtre courante et tous les panes qu'elle contient
+- killer la fenêtre courante et tous les panes qu'elle contient :
+
 <kbd>Ctrl</kbd> + <kbd>a</kbd> puis <kbd>&</kbd>
-- 
+
+- Sélectionner du texte :
+
+<kbd>Shift</kbd> + sélection
 
 ## Tmuxp
 

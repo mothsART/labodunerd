@@ -12,7 +12,7 @@ Summary:
 
 ## Liens
 
-https://liberapay.com/
+https://liberapay.com/mothsART
 
 Flattr
 

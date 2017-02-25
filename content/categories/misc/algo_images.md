@@ -11,4 +11,10 @@ Summary:
 ## 
 
 https://29a.ch/
+
 https://github.com/jwagner/smartcrop.js
+
+https://github.com/jaysalvat/jquery.facedetection
+
+https://github.com/eduardolundgren/tracking.js/
+

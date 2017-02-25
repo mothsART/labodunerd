@@ -24,3 +24,4 @@ Des libs peut-être mais des vrais soft derrières ?
 
 - RipGrep : un remplacement de Grep : https://github.com/BurntSushi/ripgrep
 
+- [Snatch]https://github.com/derniercri/snatch
