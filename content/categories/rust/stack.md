@@ -13,12 +13,12 @@ En vrac, les outils que j'utilise et perfectionne dans mon apprentissage et mon 
 
 ## MAJ de Rust
 
-* On installe Rustup si il n'est pas présent
+On installe Rustup si il n'est pas présent :
 
     #!bash
     curl https://sh.rustup.rs -sSf | sh
 
-* Installer une version Nightly
+Puis on installe une version Nightly
 
 Plusieursfonctionnalités non stabilisés sont disponibles sur la version nightly (notamment l'api de linter utilisé par **Clippy** dans le paragraphe suivant)
 
@@ -29,8 +29,8 @@ Plusieursfonctionnalités non stabilisés sont disponibles sur la version nightl
 
 Ceci va mettre à jour notre version stable de Rust (par exemple passer de la 1.14 à la 1.16) mais aussi mettre à jour notre version **nightly** sur le dernier instantanné. (commit github)
 
-     #!bash
-     rustup update
+    #!bash
+    rustup update
 
 ## Assurance qualité avec le Linter Clippy
 
