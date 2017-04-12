@@ -1,11 +1,11 @@
-Title: 
-Category: 
-Tags: 
+Title: Brainstorm autours de la Correction Gramatical
+Category: reflexion
+Tags: grammaire, phonetique, token, rust
 Date: 2015-12-11 00:00
 Modified: 2015-12-11 00:00
-Slug: 
+Slug: brainstorm-correction-grammatical
 Authors: Jérémie Ferry
-Status: published
+Status: draft
 Summary:
 
 ## Intro
@@ -17,7 +17,7 @@ Brainstorm autours de la création d'un Correcteur orthographique.
 - future plugin de Servo ?
 2. API permettant de l'utiliser sous forme d'appli CLI, serveur etc.
 3. Utilisation de Token (https://github.com/cjqed/rs-natural)
-4. Utilisation de ma lib de phonetic (phonex)
+4. Utilisation de ma lib de phonetique (phonex)
 
 5. Grammalecte n'utilise pas de  Token et s'en sort pourtant très bien.
 Voir pour utiliser 2 processus de reconnaissance en simultanné.

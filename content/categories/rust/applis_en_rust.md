@@ -22,8 +22,8 @@ Des libs peut-être mais des vrais soft derrières ?
 
 - **RedOS** : un OS en Rust : https://www.redox-os.org/
 
-- **RipGrep** : un remplacement de Grep : https://github.com/BurntSushi/ripgrep
+- **RipGrep** : un remplacement de Grep (avec des perfs halucinantes) : [https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
 
 - **Basic-http-server** : remplace **python -m http.server** (cargo install basic-http-server)
 
-- [Snatch]https://github.com/derniercri/snatch
+- [Snatch](https://github.com/derniercri/snatch)

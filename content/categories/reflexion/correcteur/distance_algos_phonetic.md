@@ -1,9 +1,9 @@
-Title: 
-Category: 
-Tags: 
+Title: Algos de distances et de phonetique
+Category: reflexion
+Tags: levenstein, hamming, soundex, metaphone, token, ngram
 Date: 2015-12-11 00:00
 Modified: 2015-12-11 00:00
-Slug: 
+Slug: algos-distance-phonetique
 Authors: Jérémie Ferry
 Status: published
 Summary:

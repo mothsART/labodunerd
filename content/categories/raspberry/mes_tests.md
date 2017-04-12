@@ -1,9 +1,9 @@
-Title: 
-Category: 
-Tags: 
+Title: Mes tests autours de la Framboise
+Category: raspberry
+Tags: raspberry, recalbox, primtux, archlinux, raspbian
 Date: 2015-12-11 00:00
 Modified: 2015-12-11 00:00
-Slug: 
+Slug: tests-autours-de-la-framboise
 Authors: Jérémie Ferry
 Status: published
 Summary:
@@ -18,18 +18,18 @@ Pour me simplifier la vie, je me suis acheté une carte SD de 16Go par OS utilis
 ## OS testés
 
 * **Recalbox** : le kiff du rétro-gaming, essayé et adopté par mes enfants et moi ! Développé et maintenu par des français :
-Ma config : [recalbox](./recalbox)
+Ma config : [recalbox](./recalbox.html)
 
 * **ArchLinux** : une de mes meilleurs distrib pour les geeks
 
 * **PrimxTux** : 
-http://forum.primtux.fr/viewtopic.php?id=829
+[Primtux pour Raspberry](http://forum.primtux.fr/viewtopic.php?id=829)
 
 ## OS a tester
 
 * Raspbian : Oui, je sais, j'aurais du commencer par là.
-* NixOS : https://nixos.org/wiki/Raspberry_Pi
-* RetroPie : https://retropie.org.uk/ : beaucoup plus de consoles supportés que RecalBox => Amiga, Playstation 2, WII, DreamCast, Saturn !
+* NixOS : [https://nixos.org/wiki/Raspberry_Pi](https://nixos.org/wiki/Raspberry_Pi)
+* RetroPie : [https://retropie.org.uk](https://retropie.org.uk] : beaucoup plus de consoles supportés que RecalBox => Amiga, Playstation 2, WII, DreamCast, Saturn !
 
 ## Les objectifs réalisés
 

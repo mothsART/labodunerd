@@ -1,9 +1,9 @@
-Title: 
-Category: 
-Tags: 
+Title: Utiliser des logs avec Rust
+Category: rust
+Tags: rust, log
 Date: 2015-12-11 00:00
 Modified: 2015-12-11 00:00
-Slug: 
+Slug: logs-rust
 Authors: Jérémie Ferry
 Status: published
 Summary:
@@ -21,18 +21,18 @@ Voici mes experimentations dans le logging en Rust.
 
 Utilisation (Ne pas afficher que les logs de type **info**) :
 
-    !sh
+    #!sh
     RUST_LOG=info cargo run
 
 On filtre les logs de type **error** et commançant par la chaine **Read**
 
-    !sh
+    #!sh
     RUST_LOG=error/Read cargo run --bin cli
 
 
 On filtre sur le module **cli** et sur le type **debug**
 
-    !sh
+    #!sh
     RUST_LOG=cli=debug cargo run --bin cli
 
 ## slog

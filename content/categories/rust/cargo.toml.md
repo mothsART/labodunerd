@@ -1,16 +1,16 @@
-Title: 
-Category: 
-Tags: 
+Title: Mémo sur Cargo
+Category: rust
+Tags: cargo, toml, rust
 Date: 2015-12-11 00:00
 Modified: 2015-12-11 00:00
-Slug: 
+Slug: memo-cargo
 Authors: Jérémie Ferry
 Status: published
 Summary:
 
 ## Un mémo sur les instructions d'un fichier de conf d'un paquet Cargo
 
-    !toml
+    #!toml
     [package]
     name = "cargo"
     version = "0.18.0"
@@ -59,7 +59,7 @@ Summary:
     time = "0.1.36"
     toml = "0.3"
     url = "1.1"
-
+    # dépendances spécifiques à une architecture
     [target.'cfg(unix)'.dependencies]
     openssl = "0.9"
 
@@ -69,7 +69,7 @@ Summary:
     miow = "0.2"
     psapi-sys = "0.1"
     winapi = "0.2"
-
+    # dépendance spécifique au développement
     [dev-dependencies]
     hamcrest = "=0.1.1"
     bufstream = "0.1"
