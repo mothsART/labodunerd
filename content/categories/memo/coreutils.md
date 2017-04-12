@@ -20,7 +20,7 @@ variable linux incontournable donnant la liste des répertoires contenant des pr
 
 ## stat
 
-permet de tester si un fichier existe et donner le 
+permet de tester si un fichier existe. 
 
 ## sync
 

@@ -11,3 +11,10 @@ Summary:
 ## 
 
 echo DATABASE_URL=postgresql://postgres@localhost > .env
+
+## Répétition espacée
+
+Dans le prochain article, je vais me concentrer sur la mise en place d'un algorithme de répétion espacée.
+(https://fr.wikipedia.org/wiki/R%C3%A9p%C3%A9tition_espac%C3%A9e)
+
+L'idée derrière cet algo est d'améliorer les connaissances de l'utilisateur en travaillant sur ses faiblesses et non sur ces acquis.

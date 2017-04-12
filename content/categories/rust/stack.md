@@ -13,8 +13,54 @@ En vrac, les outils que j'utilise et perfectionne dans mon apprentissage et mon 
 
 ## MAJ de Rust
 
+* On installe Rustup si il n'est pas présent
+
     #!bash
-    curl -sf -L https://static.rust-lang.org/rustup.sh | sh
+    curl https://sh.rustup.rs -sSf | sh
+
+* Installer une version Nightly
+
+Plusieursfonctionnalités non stabilisés sont disponibles sur la version nightly (notamment l'api de linter utilisé par **Clippy** dans le paragraphe suivant)
+
+    #!bash
+    rustup install nightly
+
+* On met à jour sa version de Rust
+
+Ceci va mettre à jour notre version stable de Rust (par exemple passer de la 1.14 à la 1.16) mais aussi mettre à jour notre version **nightly** sur le dernier instantanné. (commit github)
+
+     #!bash
+     rustup update
+
+## Assurance qualité avec le Linter Clippy
+
+Dans Rust, il y a des bonnes pratiques ainsi que des faiblesses dans le compilateur de Rust (eh oui).
+Pour pallier à ça, il existe l'utilitaire **Clippy**, un outil d'analyse statique qui va appliquer environ 200 règles sur le code parcourus.
+
+Pour utiliser **Clippy**, il faut actuellement utiliser Rust en nightly :
+
+    #!bash
+    rustup default nightly
+
+puis dans le fichier toml
+
+    #!toml
+    [dependencies]
+    clippy = {version = "*", optional = true}
+
+    [features]
+    default = []
+
+Et dans le fichier main.rs or lib.rs:
+
+    #!rust
+    #![cfg_attr(feature="clippy", feature(plugin))]
+    #![cfg_attr(feature="clippy", plugin(clippy))]
+
+Enfin, lancer l'analyse via :
+
+    #!bash
+    cargo build --features "clippy"
 
 ## Sublime-Text
 

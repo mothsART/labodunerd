@@ -264,6 +264,9 @@ supprime le dernier commit : git push -f origin HEAD^:ma_Branch_en_remote
     git reset HEAD^ -- $file
     git commit --amend
 
+## Rebase interactif
+
+https://blog.guillaume-gomez.fr/Git-tips
 
 ## Equivalences
 

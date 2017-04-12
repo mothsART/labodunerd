@@ -18,10 +18,12 @@ Des libs peut-être mais des vrais soft derrières ?
 
 ## Des softs en Rust
 
-- [Servo](https://github.com/servo/servo)
+- **[Servo](https://github.com/servo/servo)**
 
-- RedOS : un OS en Rust : https://www.redox-os.org/
+- **RedOS** : un OS en Rust : https://www.redox-os.org/
 
-- RipGrep : un remplacement de Grep : https://github.com/BurntSushi/ripgrep
+- **RipGrep** : un remplacement de Grep : https://github.com/BurntSushi/ripgrep
+
+- **Basic-http-server** : remplace **python -m http.server** (cargo install basic-http-server)
 
 - [Snatch]https://github.com/derniercri/snatch

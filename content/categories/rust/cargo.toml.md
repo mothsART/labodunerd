@@ -1,0 +1,82 @@
+Title: 
+Category: 
+Tags: 
+Date: 2015-12-11 00:00
+Modified: 2015-12-11 00:00
+Slug: 
+Authors: Jérémie Ferry
+Status: published
+Summary:
+
+## Un mémo sur les instructions d'un fichier de conf d'un paquet Cargo
+
+    !toml
+    [package]
+    name = "cargo"
+    version = "0.18.0"
+    authors = ["Yehuda Katz <wycats@gmail.com>",
+               "Carl Lerche <me@carllerche.com>",
+               "Alex Crichton <alex@alexcrichton.com>"]
+    license = "MIT/Apache-2.0"
+    homepage = "https://crates.io"
+    repository = "https://github.com/rust-lang/cargo"
+    documentation = "https://docs.rs/cargo"
+    description = """
+    Cargo, a package manager for Rust.
+    """
+
+    [lib]
+    name = "cargo"
+    path = "src/cargo/lib.rs"
+
+    [dependencies]
+    crates-io = { path = "src/crates-io", version = "0.7" }
+    crossbeam = "0.2"
+    curl = "0.4.6"
+    docopt = "0.7"
+    env_logger = "0.4"
+    filetime = "0.1"
+    flate2 = "0.2"
+    fs2 = "0.4"
+    git2 = "0.6"
+    git2-curl = "0.7"
+    glob = "0.2"
+    handlebars = { version = "0.25", features = ["serde_type", "partial4"], default-features = false }
+    libc = "0.2"
+    libgit2-sys = "0.6"
+    log = "0.3"
+    num_cpus = "1.0"
+    rustc-serialize = "0.3"
+    semver = "0.6.0"
+    serde = "0.9"
+    serde_derive = "0.9"
+    serde_json = "0.9"
+    serde_ignored = "0.0.2"
+    shell-escape = "0.1"
+    tar = { version = "0.4", default-features = false }
+    tempdir = "0.3"
+    term = "0.4.4"
+    time = "0.1.36"
+    toml = "0.3"
+    url = "1.1"
+
+    [target.'cfg(unix)'.dependencies]
+    openssl = "0.9"
+
+    [target.'cfg(windows)'.dependencies]
+    advapi32-sys = "0.2"
+    kernel32-sys = "0.2"
+    miow = "0.2"
+    psapi-sys = "0.1"
+    winapi = "0.2"
+
+    [dev-dependencies]
+    hamcrest = "=0.1.1"
+    bufstream = "0.1"
+    filetime = "0.1"
+    cargotest = { path = "tests/cargotest" }
+
+    [[bin]]
+    name = "cargo"
+    test = false
+    doc = false
