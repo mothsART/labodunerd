@@ -53,7 +53,7 @@ PLUGINS = [
     'assets', 'sitemap', 'filetime_from_git',  #'i18n_subsites',
     'liquid_tags.video',
     'i18n', 'ace_editor',
-    'tipue_search', "tag_cloud"  #, 'disqus_static'
+    'tipue_search', 'tag_cloud' #, 'disqus_static'
 ]
 
 SITEMAP = {
@@ -133,11 +133,8 @@ MD_EXTENSIONS = [
 
 #ISSO_SITEURL = 'http://localhost:9999'
 
-# DISQUS_SITENAME = 'lelabodunerd'
-# DISQUS_CATEGORY_ID = "3506724"  # Dev
+DISQUS_SITENAME = 'http-mothsart-github-io'
 
-# DISQUS_SECRET_KEY = 'Iq1skapIEykejHa4FwVcbomNJOKkm4CoUhTHXwiKrnNrWFDMRYvo6VUcbS5c5ode'
-# DISQUS_PUBLIC_KEY = 'YbVM9ctM6uTgnAAWrezSFa1rwCiRhhNjjaPwBI9dmgcHJVYCmbw3PpwNgHcLdGzN'
 
 # CACHE_CONTENT = True
 # LOAD_CONTENT_CACHE = True

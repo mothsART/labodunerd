@@ -20,14 +20,19 @@ Pour me simplifier la vie, je me suis acheté une carte SD de 16Go par OS utilis
 * **Recalbox** : le kiff du rétro-gaming, essayé et adopté par mes enfants et moi ! Développé et maintenu par des français :
 Ma config : [recalbox](./recalbox.html)
 
-* **ArchLinux** : une de mes meilleurs distrib pour les geeks
+* **Raspbian Pixel 1.2** : Produit simple clé en main !
+On installe et ça juste marche... menu de config de la raspberry juste parfait.
+Que de changements depuis ma première raspbian !!!
+
+Seul bémol : Un peu mou sur ma raspberry pi 2 surtout si on lance chromium.
+
+* **ArchLinux** : une de mes meilleurs distrib pour les geeks : un peu pénible à configurer (me manque toujours la connexion auto) mais quel bonheur après...
 
 * **PrimxTux** : 
 [Primtux pour Raspberry](http://forum.primtux.fr/viewtopic.php?id=829)
 
 ## OS a tester
 
-* Raspbian : Oui, je sais, j'aurais du commencer par là.
 * NixOS : [https://nixos.org/wiki/Raspberry_Pi](https://nixos.org/wiki/Raspberry_Pi)
 * RetroPie : [https://retropie.org.uk](https://retropie.org.uk] : beaucoup plus de consoles supportés que RecalBox => Amiga, Playstation 2, WII, DreamCast, Saturn !
 

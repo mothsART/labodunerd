@@ -132,6 +132,12 @@ garder un fichier distant -> git checkout --theirs /path/to/file
 
 puis git add /path/to/file
 
+## merge
+
+    #!bash
+    git checkout master
+    git merge topic
+
 ## Ignore
 
 exclusion globale (dans ~/.gitconfig):
