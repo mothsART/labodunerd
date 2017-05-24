@@ -1,5 +1,5 @@
 Title: Blender
-Category: misc
+Category: Aide-memoire
 Tags: 3D, blender
 Date: 2015-12-11 00:00
 Modified: 2015-12-11 00:00

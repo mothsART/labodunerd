@@ -19,7 +19,7 @@ Nécessite **pv** et **dialog** pour fonctionner :
 
 A mettre dans votre .bashrc ou .zshrc (de votre utilisateur root)
 
-    !bash
+    #!bash
     function copy() {
         # dd with a progress bar
         #pv -n "$0" | dd of="$1" bs=1M conv=notrunc,noerror

@@ -13,7 +13,7 @@ Etant un jeune papa et défenseur d'un numérique ouvert, citoyen (liberté, ég
 
 Pour l'instant, ça ne concerne que la création d'illustrations.
 
-L'objectif est à multiple tranchants : elle va concerner **[Wikipédia Commons](https://fr.wikipedia.org/wiki/Utilisateur:MothsART)**, **[VikiDia](https://fr.vikidia.org/wiki/Utilisateur:MothsART)** et **[OpenClipArt](https://openclipart.org/user-detail/mothsart)** dans la foulée.
+L'objectif est à multiple tranchants : elle va concerner **[Wikipédia Commons](https://fr.wikipedia.org/wiki/Utilisateur:MothsART)**, **[VikiDia](https://fr.vikidia.org/wiki/Utilisateur:MothsART)**, **[OpenClipArt](https://openclipart.org/user-detail/mothsart)** et **[PrimTux](https://primtux.fr/)** dans la foulée.
 
 ## Les pré-requis
 
@@ -108,3 +108,9 @@ Après la réflexion, l'action !
 [Campement du Paléolithique](./abuledu-camp-paleolithique.html)
 
 [Mastondonte](https://commons.wikimedia.org/wiki/File:Mastodonte.svg)
+
+[Organes du corps humain](https://commons.wikimedia.org/wiki/File:Organes_du_corps_humain.svg)
+
+## Dépôt GIT
+
+Afin de tout centraliser, j'ai décidé de tout mettre dans un **[dépôt GIT d'illustration](https://github.com/mothsART/abuledu)**

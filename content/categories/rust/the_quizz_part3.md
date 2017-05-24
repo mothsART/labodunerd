@@ -8,7 +8,16 @@ Authors: Jérémie Ferry
 Status: draft
 Summary:
 
-## 
+## Intro
+
+L'aventure de The Quizz ce poursuis.
+Le temps a passé et les objectifs se sont affinés.
+
+## Utilisation d'un ORM
+
+Comme convenu, on passe à l'étape supérieur avec un ORM digne d'intérêt : Diesel !
+
+## Frontend : passage de Riot.js à Vue.js
 
 echo DATABASE_URL=postgresql://postgres@localhost > .env
 

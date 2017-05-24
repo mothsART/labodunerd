@@ -10,7 +10,7 @@ Summary:
 
 ## Intro
 
-Ca fait un moment que je me passionne pour le fuzzing sans vraiment écrire à ce sujet.
+Ca fait un moment que je me passionne pour le fuzzing (aussi appelé à tord Monkey testing) sans vraiment écrire à ce sujet.
 
 ## Fuzzer connus et spécificité
 
@@ -42,3 +42,6 @@ Variante pour Rust : https://github.com/BurntSushi/quickcheck
 
 Provient de la communauté **Python**
 
+## Et pour javascript ?
+
+Il existe quelques libs sympas : https://github.com/marmelab/gremlins.js

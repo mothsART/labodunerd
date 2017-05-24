@@ -45,12 +45,13 @@ En réalité, les bases SQL ont tellement monopolisé le marché qu'on aurait te
 
 Sauf qu'en étrapolent, un simple fichier .csv pourrait être du NoSQL.
 
-il existe en réalité 4 grandes familles de NoSQL :
+il existe en réalité 5 grandes familles de NoSQL :
 
-* base orientée **document** : mongoDb, couchDb, Riack
+* base orientée **document** : mongoDB, couchDB, Riack
 * base orientée **clé/valeur** : Redis
-* base orientée **graph** : Neo4JS, OrientDb
-* orienté **object** :ZoDb
+* base orientée **colonnes** : HBase, Cassandra
+* base orientée **graph** : Neo4JS, OrientDB, HyperGrahDB, FlockDB
+* orienté **object** :ZoDB
 
 ## Raison du Bench => le caching
 
