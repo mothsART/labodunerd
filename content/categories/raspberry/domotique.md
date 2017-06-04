@@ -12,3 +12,5 @@ Summary:
 
 Utiliser l'API de free pour envoyer des SMS : http://www.domotique-info.fr/2014/06/nouvelle-api-sms-chez-free/
 
+idées => https://www.free-sms-tools.fr/
+
