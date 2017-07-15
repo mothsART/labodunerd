@@ -75,6 +75,7 @@ Vous n'utilisez pas **Sublime** ou vous désirez en savoir d'avantage : https://
 
 - [editeur](https://play.rust-lang.org)
 - [editeur multi-fichiers](http://www.tutorialspoint.com/compile_rust_online.php) : permet d'éditer, compiler et exécuter des projets complets (répartis sur plusieurs fichiers) tout en proposant des outils d'import et d'export
+- [Un autre éditeur](https://rust.godbolt.org)
 - [compilateur GCC](http://rust.godbolt.org)
 
 

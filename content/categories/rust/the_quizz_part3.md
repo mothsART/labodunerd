@@ -136,7 +136,7 @@ Le But étant d'avoir un vrai template clé en main pour démarrer un nouveau pr
 
 ### interface en GTK
 
-Et oui, travailler des UI différentes pour le même projet (avec un coeur commn) me parait une bonne idée.
+Et oui, travailler des UI différentes pour le même projet (avec un coeur commun) me parait une bonne idée.
 
 Et puis [GTK.rs](http://gtk-rs.org/) commence à murrir.
 
