@@ -11,42 +11,46 @@ Summary:
 ## Intro
 
 L'objectif est simple : éditer un fichier SVG statique afin de le présenter comme un contenu interactif. 
-Permettre l'ajout des zones cliquables pouvant être zoomés et enrichies d'une explication
+Permettre l'ajout de zones cliquables pouvant être zoomés et enrichies d'une explication.
 
-Les fichiers générés (page Html contenant le svg) pouvant servir à divers usages :
+Les fichiers générés (page Html contenant le svg) peuvent servir à divers usages :
 
 - contenus éducatifs
 - support de présentation
 - etc.
 
-![tmuxp load](static/images/editeur_svg/editeur_svg_exemple1.png)
+![Une capture d'écran du logiciel d'édition de SVG interactifs](static/images/editeur_svg/editeur_svg_exemple.png)
 
 ## Objectifs techniques
 
-1. créer des illustrations interactives avec toujours le même gabarit : une légende contenant des indices titrés et un descriptif pour une zone de l'illustration.
-Un exemple est disponible : [https://mothsart.github.io/labo/frontend/edit_interactive_svg/examples/campement.min.svg](https://mothsart.github.io/labo/frontend/edit_interactive_svg/examples/campement.min.svg)
+1. Créer des illustrations interactives avec toujours le même gabarit : une légende contenant des indices titrés et un descriptif pour une zone de l'illustration.
+Des exemple sont disponibles : 
 
-2. permettre des zooms sur les zones décrites
+    * [Campement Paléolitique](https://mothsart.github.io/labo/frontend/edit_interactive_svg/examples/campement.html)
 
-3. avoir un contenu responsive (vu que le contenu est pleinement vectoriel, pourquoi s'en priver)
+    * [Organes du corps humain](https://mothsart.github.io/labo/frontend/edit_interactive_svg/examples/organes.html)
+
+2. Permettre des zooms sur les zones décrites
+
+3. Avoir un contenu responsive (vu que le contenu est pleinement vectoriel, pourquoi s'en priver)
 
 4. être et rester simple d'utilisation (**[KISS](https://fr.wikipedia.org/wiki/Principe_KISS)** et **[philosophie Unix](https://fr.wikipedia.org/wiki/Philosophie_d%27Unix)**) et productif pour enrichir une illustration à vocation pédagogique.
 
-5. rester simple à développer et maintenir
+5. Rester simple à développer et maintenir : un mode Debug permet justement d'étendre le logiciel afin de mieux le tester.
 
-6. utilisation hors ligne et intégré dans une distribution Linux via un paquet .deb
+6. Utilisation hors ligne et intégré dans une distribution Linux via un paquet .deb
 
 ## Version de démo en ligne
 
 Il est possible d'utiliser directement la dernière version sur :
 [https://mothsart.github.io/labo/frontend/edit_interactive_svg/](https://mothsart.github.io/labo/frontend/edit_interactive_svg/)
 
-Des illustrations effectués intégralement à partir de cet éditeur seront rapidement mise en ligne.
+Des illustrations effectués intégralement à partir de cet éditeur sont disponbiles via une liste d'exemples.
 
 ## Explication d'utilisation
 
 1. On glisse et on dépose (ou on choisi via son explorateur de fichiers) son fichier svg statique. (si possible sans animation et javascript)
-On arrive sur une  interface nous permettant d'éditer ce fichier.
+On arrive sur une interface nous permettant d'éditer ce fichier.
 
 2. On ajoute des indices dans la légende. Ces derniers s'affichent également sur notre illustration si l'on clique sur les icones d'affichages (des yeux).
 
@@ -59,11 +63,11 @@ Il est possible de changer la couleur, de zoomer mais également d'ajouter/edite
 
 6. Il est possible de changer l'odre de nos indices (en les sélectionnant et les glissants) et d'en supprimer ainsi que de les afficher ou non. (pratique si l'on ne veut se concentrer que sur un éventail précis)
 
-6. Le bouton save permet de convertir notre travail en un fichier html. (équivalent au **mode rendu**)
+6. Le bouton **save** permet de convertir notre travail en un fichier html. (équivalent au **mode rendu**)
 
 7. Si l'on veut repartir d'une feuille blanche, il suffit de cliquer sur **Delete**.
 
-## Utilisation dans une distribution
+## Utilisation dans une distribution (Attention : plus à jour)
 
 Il est possible d'installer un ppa afin de profiter de l'éditeur dans Ubuntu :
 
