@@ -24,6 +24,9 @@ Des libs peut-être mais des vrais soft derrières ?
 
 - **RipGrep** : un remplacement de Grep (avec des perfs halucinantes) : [https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
 
+- **Exa** : un remplacement de la commande **ls** mais en mieux :
+[https://the.exa.website](https://the.exa.website)
+
 - **Basic-http-server** : remplace **python -m http.server** (cargo install basic-http-server)
 
 - [Snatch](https://github.com/derniercri/snatch)

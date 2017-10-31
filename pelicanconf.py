@@ -50,7 +50,7 @@ PLUGIN_PATHS = [
 ]
 
 PLUGINS = [
-    'assets', 'sitemap', 'filetime_from_git',  #'i18n_subsites',
+    'sitemap', 'filetime_from_git',  #'i18n_subsites',
     'liquid_tags.video',
     'i18n', 'ace_editor',
     'tipue_search', 'tag_cloud' #, 'disqus_static'
