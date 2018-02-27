@@ -18,7 +18,8 @@ Et potentiellement de faire profiter d'autres personnes et, pourquoi pas, de suc
 ## N'importe quoi, y'a ImageMagick ou Gimp
 
 Ben, justement... c'est tout sauf simple.
-L'un nécessite de faire de la ligne de commande et le 2ème est une usine à gaz longue à démarrer, gourmande en ressources et réservé à la retouche photo.
+L'un nécessite de faire de la ligne de commande et le 2ème est une usine à gaz longue à démarrer, 
+gourmande en ressources et réservé à la retouche photo.
 
 Bref, je veux respecter la philosophie Unixienne : faire une chose et une seul.
 Rester KISS.

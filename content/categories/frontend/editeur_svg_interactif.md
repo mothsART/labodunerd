@@ -59,13 +59,13 @@ On arrive sur une interface nous permettant d'éditer ce fichier.
 4. Un menu déroulant sur l'indice est disponible afin de l'éditer :
 Il est possible de changer la couleur, de zoomer mais également d'ajouter/editer le titre et la description de notre indice.
 
-5. L'accès au **mode show** nous permet de visualiser le rendu final. (avec les animations sur les indices si le zoom a été paramètré).
+5. L'accès au **mode de visualisation** nous permet d'avoir un apperçu du rendu final. (avec les animations sur les indices si le zoom a été paramètré).
 
 6. Il est possible de changer l'odre de nos indices (en les sélectionnant et les glissants) et d'en supprimer ainsi que de les afficher ou non. (pratique si l'on ne veut se concentrer que sur un éventail précis)
 
-6. Le bouton **save** permet de convertir notre travail en un fichier html. (équivalent au **mode rendu**)
+6. Le bouton **Enregistrer son travail** permet de convertir notre illustration interactive en un fichier html. (équivalent au **mode de visualisation**)
 
-7. Si l'on veut repartir d'une feuille blanche, il suffit de cliquer sur **Delete**.
+7. Si l'on veut repartir d'une feuille blanche, il suffit de cliquer sur **Supprimer**.
 
 ## Utilisation dans une distribution (Attention : plus à jour)
 
@@ -73,9 +73,33 @@ Il est possible d'installer un ppa afin de profiter de l'éditeur dans Ubuntu :
 
 [https://launchpad.net/~jerem-ferry/+archive/ubuntu/app-illustration](https://launchpad.net/~jerem-ferry/+archive/ubuntu/app-illustration)
 
+Pour ce faire, on ajoute le dépôt à sa liste et on met à jour :
+
+    #!sh
+    sudo add-apt-repository ppa:jerem-ferry/app-illustration
+    sudo apt-get update
+
+Enfin, on installe le-dit logiciel :
+
+    #!sh
+    sudo apt-get install edit-interactive-svg
+
 ## Participer au logiciel
 
 Les sources du projet sont disponibles sur Github : [https://github.com/mothsART/editInteractiveSVG](https://github.com/mothsART/editInteractiveSVG)
 
 Il est possible de me rapporter des bugs directement via les issues du dépôt mais également sur le forum de PrimTux :
 [http://forum.primtux.fr/viewtopic.php?pid=8870](http://forum.primtux.fr/viewtopic.php?pid=8870)
+
+Les artistes ne sont pas en reste non plus.
+Jusqu'à présent, j'ai créé les exemples (conception, réalisation sous Inkscape puis ajout de contenu interactif) mais vous pouvez bien entendu m'avertir de réalisations faites avec cet outil.
+
+Si le contenu est suffisament pertinent et que vous m'y authorisé, il pourra être ajouté dans les exemples.
+
+Sinon, j'aimerais mettre en place une gallerie de réalisations. (une liste de liens dans un premier temps)
+
+## Logiciels équivalents ou complémentaires
+
+* [Sozi](http://sozi.baierouge.fr/pages/10-about-fr.html)
+
+

@@ -34,7 +34,8 @@ Les arguments positifs :
 
 cf : [J'aime pas Apple](dislike-apple.html)
 
-Swift est bien meilleur que Java pour du mobile, c'est indéniable... j'espère que Google envisage sérieusement un remplaçant rapidement : Rust please, n'inventez pas un nième langage!!
+Swift est bien meilleur que Java pour du mobile, c'est indéniable... 
+j'espère que Google envisage sérieusement un remplaçant rapidement : Rust please, n'inventez pas un nième langage!!
 
 ## Pourquoi créer un nouveau langage ?!
 
