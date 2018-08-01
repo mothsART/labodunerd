@@ -20,13 +20,27 @@ Des libs peut-être mais des vrais soft derrières ?
 
 - **[Servo](https://github.com/servo/servo)**
 
-- **RedOS** : un OS en Rust : https://www.redox-os.org/
+- **RedOS** : un OS en Rust : [RedOs](https://www.redox-os.org/)
 
-- **RipGrep** : un remplacement de Grep (avec des perfs halucinantes) : [https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
+- **RipGrep** : un remplacement de Grep (avec des perfs halucinantes) :
+[https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
 
 - **Exa** : un remplacement de la commande **ls** mais en mieux :
 [https://the.exa.website](https://the.exa.website)
 
+- **Fd** : un digne remplaçant de la commande **find**
+
+( **SVGCleaner** : minifier du svg 
+
 - **Basic-http-server** : remplace **python -m http.server** (cargo install basic-http-server)
 
 - [Snatch](https://github.com/derniercri/snatch)
+
+- **Alactritty** : est un terminal récent qui utilise le processeur graphique (via OpenGL).
+C’est probablement le terminal le plus performant aujourd’hui.
+En revanche, il ne couvre encore que peu de fonctionnalités (pas encore d’historique, par exemple).
+[Alactritty](https://github.com/jwilm/alacritty)
+
+- **Sozu** : Un reverse proxy qui est reconfigurable à chaud, qui est rapide est sécurisé. (sans aucun crash)
+
+[Sozu](https://www.sozu.io/)

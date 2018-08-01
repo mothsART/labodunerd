@@ -13,7 +13,7 @@ Summary:
 L'objectif est simple : éditer un fichier SVG statique afin de le présenter comme un contenu interactif. 
 Permettre l'ajout de zones cliquables pouvant être zoomés et enrichies d'une explication.
 
-Les fichiers générés (page Html contenant le svg) peuvent servir à divers usages :
+Les fichiers générés (page HTML contenant le SVG) peuvent servir à divers usages :
 
 - contenus éducatifs
 - support de présentation
@@ -67,7 +67,7 @@ Il est possible de changer la couleur, de zoomer mais également d'ajouter/edite
 
 7. Si l'on veut repartir d'une feuille blanche, il suffit de cliquer sur **Supprimer**.
 
-## Utilisation dans une distribution (Attention : plus à jour)
+## Utilisation dans une distribution
 
 Il est possible d'installer un ppa afin de profiter de l'éditeur dans Ubuntu :
 

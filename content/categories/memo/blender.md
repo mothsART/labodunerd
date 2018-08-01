@@ -14,3 +14,9 @@ Summary:
 
 https://www.blender.org/manual/render/freestyle/export_svg.html
 http://goinkscape.com/use-blender-freestyle-to-export-svg-artwork
+
+
+# tutos débutant
+
+edit-mode : https://www.youtube.com/watch?v=5Ob763e34Hk
+

@@ -69,12 +69,12 @@ Pour l'instant, tu compiles comme un grand.
 4. Lancer le serveur web HTTP (dans un terminal à part)
 
         #!bash
-        cargo run --bin web
+        cargo run --release --bin web
 
 5. Lancer le serveur Webscoket (dans un autre terminal)
 
         #!bash
-        cargo run --bin ws
+        cargo run --release --bin ws
 
 6. On lance son petit navigateur chéri :
 

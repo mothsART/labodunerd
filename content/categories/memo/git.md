@@ -12,17 +12,23 @@ Summary:
 
 GIT est un super utilitaire mais son nombre de commandes est juste exponentiel.
 
+## Suppression de l'index
+
+    #!bash
+    git checkout -- unfichier
+    git checkout -f // tous les fichiers
+
+## Changer des droits sur des fichiers
+
+    #!bash
+    git update-index --chmod=+x <file>
+
 ## Clone 
 
 Avec des sous-modules
 
     #!bash
     git clone --recursive depot
-
-## Recherche d'un bug
-
-    #!bash
-    git bisect
 
 ## Ajout/Reset Partiel
 
@@ -269,6 +275,11 @@ supprime le dernier commit : git push -f origin HEAD^:ma_Branch_en_remote
     #!bash
     git reset HEAD^ -- $file
     git commit --amend
+
+## Recherche d'un bug (très rarement utile dans la réalité)
+
+    #!bash
+    git bisect
 
 ## Rebase interactif
 
