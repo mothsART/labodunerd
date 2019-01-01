@@ -62,3 +62,9 @@ Avant de se casser la tête avec un sélecteur compliqué, pensez d'abord à sim
 
 J'aimerais pouvoir identifier facilement les morceaux de code Jquery à modifier.
 Pour cela, rien de mieux qu'une **expression régulière (regex)** disponible dans chacune des lignes : il vous suffit de l'appliquer à la source de votre projet via un utilitaire tel que **[ripgrep](https://github.com/BurntSushi/ripgrep)** et identifier facilement les fichiers et lignes nécessitant un update ! 
+
+## Complément
+
+La liste des bonnes pratiques pour remplacer Jquery :
+
+[youmightnotneedjquery](http://youmightnotneedjquery.com)

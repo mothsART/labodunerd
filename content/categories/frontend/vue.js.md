@@ -28,6 +28,6 @@ http://maurice-chavelli.developpez.com/javascript/vue-js-1-bases/
 
 ## Liens
 
-Un condensé de tout ce qui se fait de mieux autours de Vue.js (composants, examples, tutos, ) :
+Un condensé de tout ce qui se fait de mieux autours de Vue.js (composants, exemples, tutos, ) :
 
 https://github.com/vuejs/awesome-vue

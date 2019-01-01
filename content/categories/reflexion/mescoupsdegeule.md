@@ -14,7 +14,7 @@ Je suis français, j'ai envie de raler... alors je me lache.
 ## Fast-food éthique
 
 Bordel, personne ne l'a encore fait.
-Manger rapidement, avoir à disposition un drive mais manger sain (pas de surgelé)... et avoir un espace enfant...
+Manger rapidement, avoir à disposition un drive mais manger sain (pas de surgelé et basé sur du circuit court)... et avoir un espace enfant...
 C'est trop demandé ?
 
 ça commence à y ressembler : https://mrmondialisation.org/une-friterie-bio-et-itinerante/
@@ -23,3 +23,7 @@ C'est trop demandé ?
 
 Franchement, y'a vraiment aucun moyen de les remplir ?!
 
+## Le ticket de caisse avec un qr code qui redonne l'ensemble des produits et leur code. (dans un fichier json par exemple).
+Pour croiser ces données avec openfood, ça devrait être obligatoire !
+
+D'ailleurs, l'appli zapette sur son téléphone, c'est pour quand ?

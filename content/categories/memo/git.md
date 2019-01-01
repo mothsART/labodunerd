@@ -23,6 +23,11 @@ GIT est un super utilitaire mais son nombre de commandes est juste exponentiel.
     #!bash
     git update-index --chmod=+x <file>
 
+## Commit vide
+
+    #!bash
+    git commit --allow-empty
+
 ## Clone 
 
 Avec des sous-modules
